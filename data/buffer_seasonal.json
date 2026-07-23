@@ -1,0 +1,25 @@
+{
+  "updated": "2026-07-11T19:24:42Z",
+  "frozen": true,
+  "source": "GIE AGSI+ (agsi.gie.eu), % de llenado agregado de almacenes de gas UE",
+  "algorithm": "Media aritmetica de los valores diarios de llenado (0-100) de cada mes natural, anos completos 2019-2025; valores fuera de 0-100 o no finitos descartados.",
+  "years": {
+    "from": 2019,
+    "to": 2025
+  },
+  "note": "Referencia estacional CONGELADA del amortiguador (auditoria Sol 2026-07-11, B1): el motor jamas la recalcula solo. Recalibrar solo con scripts/recalibrate_buffer_seasonal.py --confirm y resellar con ops/kata02_vigilante.py --reseal.",
+  "months": {
+    "1": 67.2517,
+    "2": 52.2192,
+    "3": 44.1292,
+    "4": 45.283,
+    "5": 53.0713,
+    "6": 63.0036,
+    "7": 72.1256,
+    "8": 81.0015,
+    "9": 87.4752,
+    "10": 90.9883,
+    "11": 89.596,
+    "12": 78.9741
+  }
+}

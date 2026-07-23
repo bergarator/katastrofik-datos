@@ -1,0 +1,134 @@
+{
+  "updated": "2026-06-15T05:00:05Z",
+  "lookback_years": 5,
+  "max_age_days": 30,
+  "pillars": {
+    "brent": {
+      "min": 58.919998,
+      "max": 127.980003,
+      "p10": 66.445998,
+      "p90": 102.484,
+      "observed_start": "2021-06-15",
+      "observed_end": "2026-06-15",
+      "points": 1289,
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ=F?period1=1560556800&period2=1781568000&interval=1d&includePrePost=false&events=div,splits",
+        "tier": "primary"
+      }
+    },
+    "natural_gas": {
+      "min": 22.934,
+      "max": 339.196014,
+      "p10": 29.3895,
+      "p90": 119.170701,
+      "observed_start": "2021-06-15",
+      "observed_end": "2026-06-12",
+      "points": 1258,
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/TTF=F?period1=1560556800&period2=1781568000&interval=1d&includePrePost=false&events=div,splits",
+        "tier": "primary"
+      }
+    },
+    "wheat": {
+      "min": 4.95,
+      "max": 14.2525,
+      "p10": 5.2715,
+      "p90": 8.4285,
+      "observed_start": "2021-06-15",
+      "observed_end": "2026-06-15",
+      "points": 1257,
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZW=F?period1=1560556800&period2=1781568000&interval=1d&includePrePost=false&events=div,splits",
+        "tier": "primary"
+      }
+    },
+    "corn": {
+      "min": 3.62,
+      "max": 8.1825,
+      "p10": 4.1265,
+      "p90": 6.8335,
+      "observed_start": "2021-06-15",
+      "observed_end": "2026-06-15",
+      "points": 1257,
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZC=F?period1=1560556800&period2=1781568000&interval=1d&includePrePost=false&events=div,splits",
+        "tier": "primary"
+      }
+    },
+    "sugar": {
+      "min": 13.31,
+      "max": 27.950001,
+      "p10": 14.96,
+      "p90": 24.376,
+      "observed_start": "2021-06-15",
+      "observed_end": "2026-06-12",
+      "points": 1258,
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/SB=F?period1=1560556800&period2=1781568000&interval=1d&includePrePost=false&events=div,splits",
+        "tier": "primary"
+      }
+    },
+    "eur_usd": {
+      "min": 0.95648,
+      "max": 1.2124,
+      "p10": 1.039296,
+      "p90": 1.173395,
+      "observed_start": "2021-06-15",
+      "observed_end": "2026-06-12",
+      "points": 1442,
+      "source": {
+        "name": "Frankfurter",
+        "url": "https://api.frankfurter.dev/v1/2019-06-15..2026-06-15?base=USD&symbols=EUR",
+        "tier": "primary"
+      }
+    },
+    "hormuz": {
+      "min": 1.285714,
+      "max": 136.428571,
+      "p10": 67.028571,
+      "p90": 114.0,
+      "observed_start": "2021-07-02",
+      "observed_end": "2026-06-28",
+      "points": 1823,
+      "source": {
+        "name": "IMF PortWatch",
+        "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query?portid=chokepoint6",
+        "tier": "primary"
+      }
+    },
+    "gpr": {
+      "min": 41.804718,
+      "max": 438.624084,
+      "p10": 85.430775,
+      "p90": 199.659248,
+      "observed_start": "2021-07-02",
+      "observed_end": "2026-07-01",
+      "points": 1826,
+      "source": {
+        "name": "GPR (Caldara-Iacoviello)",
+        "url": "https://www.matteoiacoviello.com/gpr_files/data_gpr_daily_recent.xls",
+        "tier": "primary"
+      }
+    },
+    "ovx": {
+      "min": 23.73,
+      "max": 120.910004,
+      "p10": 29.38,
+      "p90": 55.255999,
+      "observed_start": "2021-07-02",
+      "observed_end": "2026-07-02",
+      "points": 1255,
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EOVX?period1=1562025600&period2=1783036800&interval=1d&includePrePost=false&events=div,splits",
+        "tier": "primary"
+      }
+    }
+  },
+  "note": "Rangos congelados: no se recalculan automaticamente. Usar scripts/recalibrate_ranges.py para una recalibracion deliberada."
+}
