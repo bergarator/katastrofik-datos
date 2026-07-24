@@ -1,56 +1,56 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-07-23",
+ "fecha": "2026-07-24",
  "motor": "3.0.0",
- "indice": 80.51,
+ "indice": 82.06,
  "nivel": "crisis",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 72.51,
+ "sin_ajuste_del_gas": 74.06,
  "ajuste_del_gas": 8.0,
  "reservas_gas_ue_pct": 54.38,
  "reservas_normales_del_mes_pct": 72.13,
  "sensores": {
   "brent": {
    "nombre": "Petroleo Brent",
-   "puntuacion": 82.56,
-   "valor": 96.2,
+   "puntuacion": 94.02,
+   "valor": 100.33,
    "unidad": "$/barril",
-   "observado": "2026-07-23"
+   "observado": "2026-07-24"
   },
   "natural_gas": {
    "nombre": "Gas natural",
-   "puntuacion": 36.92,
-   "valor": 62.537,
+   "puntuacion": 36.21,
+   "valor": 61.898,
    "unidad": "EUR/MWh",
-   "observado": "2026-07-22"
+   "observado": "2026-07-23"
   },
   "wheat": {
    "nombre": "Trigo",
-   "puntuacion": 55.94,
-   "valor": 7.037,
+   "puntuacion": 55.54,
+   "valor": 7.025,
    "unidad": "$/bushel",
-   "observado": "2026-07-23"
+   "observado": "2026-07-24"
   },
   "corn": {
    "nombre": "Maiz",
-   "puntuacion": 26.73,
-   "valor": 4.85,
+   "puntuacion": 28.39,
+   "valor": 4.895,
    "unidad": "$/bushel",
-   "observado": "2026-07-23"
+   "observado": "2026-07-24"
   },
   "sugar": {
    "nombre": "Azucar",
    "puntuacion": 0.0,
-   "valor": 14.74,
+   "valor": 14.69,
    "unidad": "cents/lb",
-   "observado": "2026-07-22"
+   "observado": "2026-07-23"
   },
   "eur_usd": {
    "nombre": "Euro vs dolar",
-   "puntuacion": 24.31,
-   "valor": 1.141,
+   "puntuacion": 25.5,
+   "valor": 1.139,
    "unidad": "USD por EUR",
-   "observado": "2026-07-22"
+   "observado": "2026-07-23"
   },
   "hormuz": {
    "nombre": "Trafico por Ormuz",
@@ -69,9 +69,9 @@
   "ovx": {
    "nombre": "Volatilidad del crudo",
    "puntuacion": 100.0,
-   "valor": 65.31,
+   "valor": 68.97,
    "unidad": "puntos",
-   "observado": "2026-07-22"
+   "observado": "2026-07-23"
   }
  }
 }
