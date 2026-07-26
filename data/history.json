@@ -100923,18 +100923,18 @@
     "version": "v2",
     "engine_version": "3.0.0",
     "date": "2026-07-24",
-    "updated": "2026-07-25T05:20:47Z",
-    "index": 79.58,
+    "updated": "2026-07-26T05:23:44Z",
+    "index": 80.22,
     "level": "critico",
     "signals": {
-      "primary_alert": 71.58,
-      "global_pressure": 46.08,
+      "primary_alert": 72.22,
+      "global_pressure": 47.58,
       "predictive_core": 55.9,
       "input_pressure": 55.9,
-      "food_pressure": 27.59,
+      "food_pressure": 30.42,
       "supply_shock": 100.0,
       "buffer_modifier": 8.0,
-      "amplifier_delta": 25.5
+      "amplifier_delta": 24.64
     },
     "pillars": {
       "brent": {
@@ -100960,15 +100960,15 @@
       },
       "corn": {
         "name": "Maiz",
-        "score": 19.06,
-        "current": 4.643,
+        "score": 27.56,
+        "current": 4.872,
         "unit": "$/bushel",
         "observed_at": "2026-07-24"
       },
       "sugar": {
         "name": "Azucar",
         "score": 0.0,
-        "current": 14.77,
+        "current": 14.76,
         "unit": "cents/lb",
         "observed_at": "2026-07-24"
       },
