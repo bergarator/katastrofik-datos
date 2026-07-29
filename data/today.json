@@ -1,63 +1,63 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-07-28",
+ "fecha": "2026-07-29",
  "motor": "3.0.0",
- "indice": 75.54,
+ "indice": 75.96,
  "nivel": "crisis",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 67.54,
+ "sin_ajuste_del_gas": 67.96,
  "ajuste_del_gas": 8.0,
- "reservas_gas_ue_pct": 55.66,
+ "reservas_gas_ue_pct": 55.91,
  "reservas_normales_del_mes_pct": 72.13,
  "sensores": {
   "brent": {
    "nombre": "Petroleo Brent",
-   "puntuacion": 57.62,
-   "valor": 87.21,
+   "puntuacion": 57.34,
+   "valor": 87.11,
    "unidad": "$/barril",
-   "observado": "2026-07-28"
+   "observado": "2026-07-29"
   },
   "natural_gas": {
    "nombre": "Gas natural",
-   "puntuacion": 32.15,
-   "valor": 58.253,
+   "puntuacion": 31.57,
+   "valor": 57.737,
    "unidad": "EUR/MWh",
-   "observado": "2026-07-27"
+   "observado": "2026-07-28"
   },
   "wheat": {
    "nombre": "Trigo",
-   "puntuacion": 42.32,
-   "valor": 6.607,
+   "puntuacion": 44.77,
+   "valor": 6.685,
    "unidad": "$/bushel",
-   "observado": "2026-07-28"
+   "observado": "2026-07-29"
   },
   "corn": {
    "nombre": "Maiz",
-   "puntuacion": 23.49,
-   "valor": 4.763,
+   "puntuacion": 25.25,
+   "valor": 4.81,
    "unidad": "$/bushel",
-   "observado": "2026-07-28"
+   "observado": "2026-07-29"
   },
   "sugar": {
    "nombre": "Azucar",
    "puntuacion": 0.0,
-   "valor": 14.58,
+   "valor": 14.55,
    "unidad": "cents/lb",
-   "observado": "2026-07-27"
+   "observado": "2026-07-28"
   },
   "eur_usd": {
    "nombre": "Euro vs dolar",
-   "puntuacion": 25.72,
-   "valor": 1.139,
+   "puntuacion": 27.36,
+   "valor": 1.137,
    "unidad": "USD por EUR",
-   "observado": "2026-07-27"
+   "observado": "2026-07-28"
   },
   "hormuz": {
    "nombre": "Trafico por Ormuz",
    "puntuacion": 100.0,
-   "valor": 12.143,
+   "valor": 11.143,
    "unidad": "buques/dia (media 7d)",
-   "observado": "2026-07-19"
+   "observado": "2026-07-23"
   },
   "gpr": {
    "nombre": "Riesgo geopolitico",
