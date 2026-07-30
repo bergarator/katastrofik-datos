@@ -1,56 +1,56 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-07-29",
+ "fecha": "2026-07-30",
  "motor": "3.0.0",
- "indice": 75.96,
+ "indice": 76.67,
  "nivel": "crisis",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 67.96,
+ "sin_ajuste_del_gas": 68.67,
  "ajuste_del_gas": 8.0,
- "reservas_gas_ue_pct": 55.91,
+ "reservas_gas_ue_pct": 56.15,
  "reservas_normales_del_mes_pct": 72.13,
  "sensores": {
   "brent": {
    "nombre": "Petroleo Brent",
-   "puntuacion": 57.34,
-   "valor": 87.11,
+   "puntuacion": 66.14,
+   "valor": 90.28,
    "unidad": "$/barril",
-   "observado": "2026-07-29"
+   "observado": "2026-07-30"
   },
   "natural_gas": {
    "nombre": "Gas natural",
-   "puntuacion": 31.57,
-   "valor": 57.737,
+   "puntuacion": 34.56,
+   "valor": 60.42,
    "unidad": "EUR/MWh",
-   "observado": "2026-07-28"
+   "observado": "2026-07-29"
   },
   "wheat": {
    "nombre": "Trigo",
-   "puntuacion": 44.77,
-   "valor": 6.685,
+   "puntuacion": 42.71,
+   "valor": 6.62,
    "unidad": "$/bushel",
-   "observado": "2026-07-29"
+   "observado": "2026-07-30"
   },
   "corn": {
    "nombre": "Maiz",
-   "puntuacion": 25.25,
-   "valor": 4.81,
+   "puntuacion": 20.82,
+   "valor": 4.69,
    "unidad": "$/bushel",
-   "observado": "2026-07-29"
+   "observado": "2026-07-30"
   },
   "sugar": {
    "nombre": "Azucar",
    "puntuacion": 0.0,
-   "valor": 14.55,
+   "valor": 14.5,
    "unidad": "cents/lb",
-   "observado": "2026-07-28"
+   "observado": "2026-07-29"
   },
   "eur_usd": {
    "nombre": "Euro vs dolar",
-   "puntuacion": 27.36,
-   "valor": 1.137,
+   "puntuacion": 26.39,
+   "valor": 1.138,
    "unidad": "USD por EUR",
-   "observado": "2026-07-28"
+   "observado": "2026-07-29"
   },
   "hormuz": {
    "nombre": "Trafico por Ormuz",
@@ -69,9 +69,9 @@
   "ovx": {
    "nombre": "Volatilidad del crudo",
    "puntuacion": 100.0,
-   "valor": 60.62,
+   "valor": 67.59,
    "unidad": "puntos",
-   "observado": "2026-07-27"
+   "observado": "2026-07-29"
   }
  }
 }
