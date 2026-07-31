@@ -1,7 +1,7 @@
 # Katastrofik
 
-# 76.67  ·  CRISIS
-### 30 de julio de 2026
+# 75.73  ·  CRISIS
+### 31 de julio de 2026
 
 Índice de tensión de la cesta de la compra española. De 0 a 100.
 Cada mañana se publica aquí la lectura del día.
