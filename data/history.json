@@ -101338,61 +101338,61 @@
     "version": "v2",
     "engine_version": "3.0.0",
     "date": "2026-07-31",
-    "updated": "2026-07-31T11:56:00Z",
-    "index": 75.73,
-    "level": "critico",
+    "updated": "2026-08-01T05:23:14Z",
+    "index": 74.41,
+    "level": "alto",
     "signals": {
-      "primary_alert": 67.73,
-      "global_pressure": 38.32,
-      "predictive_core": 44.05,
-      "input_pressure": 44.05,
-      "food_pressure": 24.94,
+      "primary_alert": 66.41,
+      "global_pressure": 35.34,
+      "predictive_core": 43.94,
+      "input_pressure": 43.94,
+      "food_pressure": 19.24,
       "supply_shock": 100.0,
       "buffer_modifier": 8.0,
-      "amplifier_delta": 29.41
+      "amplifier_delta": 31.07
     },
     "pillars": {
       "brent": {
         "name": "Petroleo Brent",
-        "score": 66.14,
-        "current": 90.28,
+        "score": 65.69,
+        "current": 90.12,
         "unit": "$/barril",
         "observed_at": "2026-07-31"
       },
       "natural_gas": {
         "name": "Gas natural",
-        "score": 32.07,
-        "current": 58.181,
+        "score": 33.06,
+        "current": 59.071,
         "unit": "EUR/MWh",
-        "observed_at": "2026-07-30"
+        "observed_at": "2026-07-31"
       },
       "wheat": {
         "name": "Trigo",
-        "score": 41.13,
-        "current": 6.57,
+        "score": 35.51,
+        "current": 6.393,
         "unit": "$/bushel",
         "observed_at": "2026-07-31"
       },
       "corn": {
         "name": "Maiz",
-        "score": 19.99,
-        "current": 4.668,
+        "score": 10.38,
+        "current": 4.407,
         "unit": "$/bushel",
         "observed_at": "2026-07-31"
       },
       "sugar": {
         "name": "Azucar",
         "score": 0.0,
-        "current": 14.59,
+        "current": 14.66,
         "unit": "cents/lb",
         "observed_at": "2026-07-31"
       },
       "eur_usd": {
         "name": "Euro vs dolar",
-        "score": 19.23,
-        "current": 1.148,
+        "score": 18.56,
+        "current": 1.149,
         "unit": "USD por EUR",
-        "observed_at": "2026-07-30"
+        "observed_at": "2026-07-31"
       },
       "hormuz": {
         "name": "Trafico por Ormuz",
@@ -101411,9 +101411,9 @@
       "ovx": {
         "name": "Volatilidad del crudo",
         "score": 100.0,
-        "current": 63.44,
+        "current": 63.04,
         "unit": "puntos",
-        "observed_at": "2026-07-30"
+        "observed_at": "2026-07-31"
       }
     }
   }
