@@ -1,10 +1,12 @@
 # Katastrofik
 
-# 74.41  ·  ALERTA
-### 1 de agosto de 2026
+# 75.06  ·  CRISIS
+### 2 de agosto de 2026
 
 Índice de tensión de la cesta de la compra española. De 0 a 100.
 Cada mañana se publica aquí la lectura del día.
+
+Hoy pesa sobre todo el gas: las reservas de Europa están muy bajas para la época.
 
 **calma** 0-25 · **atención** 25-50 · **alerta** 50-75 · **crisis** más de 75
 

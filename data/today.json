@@ -1,13 +1,13 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-08-01",
+ "fecha": "2026-08-02",
  "motor": "3.0.0",
- "indice": 74.41,
- "nivel": "alerta",
+ "indice": 75.06,
+ "nivel": "crisis",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 66.41,
+ "sin_ajuste_del_gas": 67.06,
  "ajuste_del_gas": 8.0,
- "reservas_gas_ue_pct": 56.63,
+ "reservas_gas_ue_pct": 56.88,
  "reservas_normales_del_mes_pct": 72.13,
  "sensores": {
   "brent": {
@@ -33,15 +33,15 @@
   },
   "corn": {
    "nombre": "Maiz",
-   "puntuacion": 10.38,
-   "valor": 4.407,
+   "puntuacion": 18.97,
+   "valor": 4.64,
    "unidad": "$/bushel",
    "observado": "2026-07-31"
   },
   "sugar": {
    "nombre": "Azucar",
    "puntuacion": 0.0,
-   "valor": 14.66,
+   "valor": 14.65,
    "unidad": "cents/lb",
    "observado": "2026-07-31"
   },
