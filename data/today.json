@@ -1,56 +1,56 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-08-06",
+ "fecha": "2026-08-07",
  "motor": "3.0.0",
- "indice": 65.02,
+ "indice": 67.44,
  "nivel": "alerta",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 57.02,
+ "sin_ajuste_del_gas": 59.44,
  "ajuste_del_gas": 8.0,
- "reservas_gas_ue_pct": 57.87,
+ "reservas_gas_ue_pct": 58.1,
  "reservas_normales_del_mes_pct": 81.0,
  "sensores": {
   "brent": {
    "nombre": "Petroleo Brent",
-   "puntuacion": 36.72,
-   "valor": 79.68,
+   "puntuacion": 47.96,
+   "valor": 83.73,
    "unidad": "$/barril",
-   "observado": "2026-08-06"
+   "observado": "2026-08-07"
   },
   "natural_gas": {
    "nombre": "Gas natural",
-   "puntuacion": 31.32,
-   "valor": 57.505,
+   "puntuacion": 29.38,
+   "valor": 55.769,
    "unidad": "EUR/MWh",
-   "observado": "2026-08-03"
+   "observado": "2026-08-06"
   },
   "wheat": {
    "nombre": "Trigo",
-   "puntuacion": 36.62,
-   "valor": 6.428,
+   "puntuacion": 33.29,
+   "valor": 6.322,
    "unidad": "$/bushel",
-   "observado": "2026-08-06"
+   "observado": "2026-08-07"
   },
   "corn": {
    "nombre": "Maiz",
-   "puntuacion": 17.86,
-   "valor": 4.61,
+   "puntuacion": 18.97,
+   "valor": 4.64,
    "unidad": "$/bushel",
-   "observado": "2026-08-06"
+   "observado": "2026-08-07"
   },
   "sugar": {
    "nombre": "Azucar",
-   "puntuacion": 0.53,
-   "valor": 15.01,
+   "puntuacion": 6.48,
+   "valor": 15.57,
    "unidad": "cents/lb",
-   "observado": "2026-08-03"
+   "observado": "2026-08-06"
   },
   "eur_usd": {
    "nombre": "Euro vs dolar",
-   "puntuacion": 13.42,
-   "valor": 1.155,
+   "puntuacion": 14.31,
+   "valor": 1.154,
    "unidad": "USD por EUR",
-   "observado": "2026-08-05"
+   "observado": "2026-08-06"
   },
   "hormuz": {
    "nombre": "Trafico por Ormuz",
@@ -68,10 +68,10 @@
   },
   "ovx": {
    "nombre": "Volatilidad del crudo",
-   "puntuacion": 93.02,
-   "valor": 53.45,
+   "puntuacion": 100.0,
+   "valor": 57.34,
    "unidad": "puntos",
-   "observado": "2026-08-04"
+   "observado": "2026-08-06"
   }
  }
 }
