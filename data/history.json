@@ -102168,18 +102168,18 @@
     "version": "v2",
     "engine_version": "3.0.0",
     "date": "2026-08-14",
-    "updated": "2026-08-15T04:44:15Z",
-    "index": 63.89,
+    "updated": "2026-08-16T04:47:50Z",
+    "index": 65.03,
     "level": "alto",
     "signals": {
-      "primary_alert": 55.89,
-      "global_pressure": 40.38,
+      "primary_alert": 57.03,
+      "global_pressure": 43.06,
       "predictive_core": 40.97,
       "input_pressure": 40.97,
-      "food_pressure": 30.36,
+      "food_pressure": 35.42,
       "supply_shock": 75.58,
       "buffer_modifier": 8.0,
-      "amplifier_delta": 15.51
+      "amplifier_delta": 13.97
     },
     "pillars": {
       "brent": {
@@ -102198,15 +102198,15 @@
       },
       "wheat": {
         "name": "Trigo",
-        "score": 46.75,
-        "current": 6.747,
+        "score": 51.43,
+        "current": 6.895,
         "unit": "$/bushel",
         "observed_at": "2026-08-14"
       },
       "corn": {
         "name": "Maiz",
-        "score": 17.12,
-        "current": 4.59,
+        "score": 26.08,
+        "current": 4.832,
         "unit": "$/bushel",
         "observed_at": "2026-08-14"
       },
