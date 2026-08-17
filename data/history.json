@@ -102246,5 +102246,88 @@
         "observed_at": "2026-08-14"
       }
     }
+  },
+  {
+    "version": "v2",
+    "engine_version": "3.0.0",
+    "date": "2026-08-17",
+    "updated": "2026-08-17T04:55:44Z",
+    "index": 65.12,
+    "level": "alto",
+    "signals": {
+      "primary_alert": 57.12,
+      "global_pressure": 43.28,
+      "predictive_core": 41.13,
+      "input_pressure": 41.13,
+      "food_pressure": 35.64,
+      "supply_shock": 75.58,
+      "buffer_modifier": 8.0,
+      "amplifier_delta": 13.84
+    },
+    "pillars": {
+      "brent": {
+        "name": "Petroleo Brent",
+        "score": 61.61,
+        "current": 88.65,
+        "unit": "$/barril",
+        "observed_at": "2026-08-17"
+      },
+      "natural_gas": {
+        "name": "Gas natural",
+        "score": 35.68,
+        "current": 61.424,
+        "unit": "EUR/MWh",
+        "observed_at": "2026-08-14"
+      },
+      "wheat": {
+        "name": "Trigo",
+        "score": 51.5,
+        "current": 6.897,
+        "unit": "$/bushel",
+        "observed_at": "2026-08-17"
+      },
+      "corn": {
+        "name": "Maiz",
+        "score": 26.63,
+        "current": 4.848,
+        "unit": "$/bushel",
+        "observed_at": "2026-08-17"
+      },
+      "sugar": {
+        "name": "Azucar",
+        "score": 17.42,
+        "current": 16.6,
+        "unit": "cents/lb",
+        "observed_at": "2026-08-14"
+      },
+      "eur_usd": {
+        "name": "Euro vs dolar",
+        "score": 12.45,
+        "current": 1.157,
+        "unit": "USD por EUR",
+        "observed_at": "2026-08-14"
+      },
+      "hormuz": {
+        "name": "Trafico por Ormuz",
+        "score": 100.0,
+        "current": 4.429,
+        "unit": "buques/dia (media 7d)",
+        "observed_at": "2026-08-09"
+      },
+      "gpr": {
+        "name": "Riesgo geopolitico",
+        "score": 40.78,
+        "current": 132.01,
+        "unit": "indice GPR",
+        "observed_at": "2026-08-10"
+      },
+      "ovx": {
+        "name": "Volatilidad del crudo",
+        "score": 77.83,
+        "current": 49.52,
+        "unit": "puntos",
+        "observed_at": "2026-08-14"
+      }
+    }
   }
 ]
