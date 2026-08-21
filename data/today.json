@@ -1,56 +1,56 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-08-20",
+ "fecha": "2026-08-21",
  "motor": "3.0.0",
- "indice": 63.47,
+ "indice": 65.1,
  "nivel": "alerta",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 55.47,
+ "sin_ajuste_del_gas": 57.1,
  "ajuste_del_gas": 8.0,
- "reservas_gas_ue_pct": 61.61,
+ "reservas_gas_ue_pct": 61.82,
  "reservas_normales_del_mes_pct": 81.0,
  "sensores": {
   "brent": {
    "nombre": "Petroleo Brent",
-   "puntuacion": 70.63,
-   "valor": 91.9,
+   "puntuacion": 75.38,
+   "valor": 93.61,
    "unidad": "$/barril",
-   "observado": "2026-08-20"
+   "observado": "2026-08-21"
   },
   "natural_gas": {
    "nombre": "Gas natural",
-   "puntuacion": 37.86,
-   "valor": 63.381,
+   "puntuacion": 39.99,
+   "valor": 65.295,
    "unidad": "EUR/MWh",
-   "observado": "2026-08-19"
+   "observado": "2026-08-20"
   },
   "wheat": {
    "nombre": "Trigo",
-   "puntuacion": 54.12,
-   "valor": 6.98,
+   "puntuacion": 56.02,
+   "valor": 7.04,
    "unidad": "$/bushel",
-   "observado": "2026-08-20"
+   "observado": "2026-08-21"
   },
   "corn": {
    "nombre": "Maiz",
    "puntuacion": 32.73,
    "valor": 5.013,
    "unidad": "$/bushel",
-   "observado": "2026-08-20"
+   "observado": "2026-08-21"
   },
   "sugar": {
    "nombre": "Azucar",
-   "puntuacion": 27.51,
-   "valor": 17.55,
+   "puntuacion": 27.19,
+   "valor": 17.52,
    "unidad": "cents/lb",
-   "observado": "2026-08-19"
+   "observado": "2026-08-20"
   },
   "eur_usd": {
    "nombre": "Euro vs dolar",
-   "puntuacion": 9.62,
-   "valor": 1.16,
+   "puntuacion": 3.95,
+   "valor": 1.168,
    "unidad": "USD por EUR",
-   "observado": "2026-08-19"
+   "observado": "2026-08-20"
   },
   "hormuz": {
    "nombre": "Trafico por Ormuz",
@@ -68,10 +68,10 @@
   },
   "ovx": {
    "nombre": "Volatilidad del crudo",
-   "puntuacion": 70.76,
-   "valor": 47.69,
+   "puntuacion": 78.26,
+   "valor": 49.63,
    "unidad": "puntos",
-   "observado": "2026-08-19"
+   "observado": "2026-08-20"
   }
  }
 }
