@@ -1,56 +1,56 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-08-21",
+ "fecha": "2026-08-22",
  "motor": "3.0.0",
- "indice": 65.1,
+ "indice": 64.16,
  "nivel": "alerta",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 57.1,
+ "sin_ajuste_del_gas": 56.16,
  "ajuste_del_gas": 8.0,
- "reservas_gas_ue_pct": 61.82,
+ "reservas_gas_ue_pct": 62.04,
  "reservas_normales_del_mes_pct": 81.0,
  "sensores": {
   "brent": {
    "nombre": "Petroleo Brent",
-   "puntuacion": 75.38,
-   "valor": 93.61,
+   "puntuacion": 77.54,
+   "valor": 94.39,
    "unidad": "$/barril",
    "observado": "2026-08-21"
   },
   "natural_gas": {
    "nombre": "Gas natural",
-   "puntuacion": 39.99,
-   "valor": 65.295,
+   "puntuacion": 40.63,
+   "valor": 65.865,
    "unidad": "EUR/MWh",
-   "observado": "2026-08-20"
+   "observado": "2026-08-21"
   },
   "wheat": {
    "nombre": "Trigo",
-   "puntuacion": 56.02,
-   "valor": 7.04,
+   "puntuacion": 48.89,
+   "valor": 6.815,
    "unidad": "$/bushel",
    "observado": "2026-08-21"
   },
   "corn": {
    "nombre": "Maiz",
-   "puntuacion": 32.73,
-   "valor": 5.013,
+   "puntuacion": 26.27,
+   "valor": 4.838,
    "unidad": "$/bushel",
    "observado": "2026-08-21"
   },
   "sugar": {
    "nombre": "Azucar",
-   "puntuacion": 27.19,
-   "valor": 17.52,
+   "puntuacion": 28.14,
+   "valor": 17.61,
    "unidad": "cents/lb",
-   "observado": "2026-08-20"
+   "observado": "2026-08-21"
   },
   "eur_usd": {
    "nombre": "Euro vs dolar",
-   "puntuacion": 3.95,
-   "valor": 1.168,
+   "puntuacion": 2.6,
+   "valor": 1.17,
    "unidad": "USD por EUR",
-   "observado": "2026-08-20"
+   "observado": "2026-08-21"
   },
   "hormuz": {
    "nombre": "Trafico por Ormuz",
@@ -68,10 +68,10 @@
   },
   "ovx": {
    "nombre": "Volatilidad del crudo",
-   "puntuacion": 78.26,
-   "valor": 49.63,
+   "puntuacion": 78.22,
+   "valor": 49.62,
    "unidad": "puntos",
-   "observado": "2026-08-20"
+   "observado": "2026-08-21"
   }
  }
 }
