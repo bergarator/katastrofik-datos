@@ -102583,18 +102583,18 @@
     "version": "v2",
     "engine_version": "3.0.0",
     "date": "2026-08-21",
-    "updated": "2026-08-22T04:46:22Z",
-    "index": 64.16,
+    "updated": "2026-08-23T04:50:05Z",
+    "index": 65.42,
     "level": "alto",
     "signals": {
-      "primary_alert": 56.16,
-      "global_pressure": 49.43,
-      "predictive_core": 47.04,
-      "input_pressure": 47.04,
-      "food_pressure": 36.74,
+      "primary_alert": 57.42,
+      "global_pressure": 52.38,
+      "predictive_core": 47.08,
+      "input_pressure": 47.08,
+      "food_pressure": 42.26,
       "supply_shock": 69.92,
       "buffer_modifier": 8.0,
-      "amplifier_delta": 6.73
+      "amplifier_delta": 5.04
     },
     "pillars": {
       "brent": {
@@ -102606,29 +102606,29 @@
       },
       "natural_gas": {
         "name": "Gas natural",
-        "score": 40.63,
-        "current": 65.865,
+        "score": 40.78,
+        "current": 66.002,
         "unit": "EUR/MWh",
         "observed_at": "2026-08-21"
       },
       "wheat": {
         "name": "Trigo",
-        "score": 48.89,
-        "current": 6.815,
+        "score": 54.51,
+        "current": 6.992,
         "unit": "$/bushel",
         "observed_at": "2026-08-21"
       },
       "corn": {
         "name": "Maiz",
-        "score": 26.27,
-        "current": 4.838,
+        "score": 35.41,
+        "current": 5.085,
         "unit": "$/bushel",
         "observed_at": "2026-08-21"
       },
       "sugar": {
         "name": "Azucar",
-        "score": 28.14,
-        "current": 17.61,
+        "score": 28.04,
+        "current": 17.6,
         "unit": "cents/lb",
         "observed_at": "2026-08-21"
       },
