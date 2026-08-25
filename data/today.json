@@ -1,56 +1,56 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-08-24",
+ "fecha": "2026-08-25",
  "motor": "3.0.0",
- "indice": 65.58,
+ "indice": 68.86,
  "nivel": "alerta",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 57.58,
+ "sin_ajuste_del_gas": 60.86,
  "ajuste_del_gas": 8.0,
- "reservas_gas_ue_pct": 61.68,
+ "reservas_gas_ue_pct": 62.99,
  "reservas_normales_del_mes_pct": 81.0,
  "sensores": {
   "brent": {
    "nombre": "Petroleo Brent",
-   "puntuacion": 73.96,
-   "valor": 93.1,
+   "puntuacion": 71.71,
+   "valor": 92.29,
    "unidad": "$/barril",
-   "observado": "2026-08-24"
+   "observado": "2026-08-25"
   },
   "natural_gas": {
    "nombre": "Gas natural",
-   "puntuacion": 40.63,
-   "valor": 65.865,
+   "puntuacion": 43.36,
+   "valor": 68.32,
    "unidad": "EUR/MWh",
-   "observado": "2026-08-21"
+   "observado": "2026-08-24"
   },
   "wheat": {
    "nombre": "Trigo",
-   "puntuacion": 57.68,
-   "valor": 7.093,
+   "puntuacion": 55.23,
+   "valor": 7.015,
    "unidad": "$/bushel",
-   "observado": "2026-08-24"
+   "observado": "2026-08-25"
   },
   "corn": {
    "nombre": "Maiz",
-   "puntuacion": 39.38,
-   "valor": 5.192,
+   "puntuacion": 38.83,
+   "valor": 5.178,
    "unidad": "$/bushel",
-   "observado": "2026-08-24"
+   "observado": "2026-08-25"
   },
   "sugar": {
    "nombre": "Azucar",
-   "puntuacion": 28.14,
-   "valor": 17.61,
+   "puntuacion": 28.57,
+   "valor": 17.65,
    "unidad": "cents/lb",
-   "observado": "2026-08-21"
+   "observado": "2026-08-24"
   },
   "eur_usd": {
    "nombre": "Euro vs dolar",
-   "puntuacion": 2.6,
-   "valor": 1.17,
+   "puntuacion": 5.22,
+   "valor": 1.166,
    "unidad": "USD por EUR",
-   "observado": "2026-08-21"
+   "observado": "2026-08-24"
   },
   "hormuz": {
    "nombre": "Trafico por Ormuz",
@@ -61,17 +61,17 @@
   },
   "gpr": {
    "nombre": "Riesgo geopolitico",
-   "puntuacion": 21.52,
-   "valor": 110.008,
+   "puntuacion": 55.5,
+   "valor": 148.826,
    "unidad": "indice GPR",
-   "observado": "2026-08-17"
+   "observado": "2026-08-24"
   },
   "ovx": {
    "nombre": "Volatilidad del crudo",
-   "puntuacion": 78.22,
-   "valor": 49.62,
+   "puntuacion": 67.09,
+   "valor": 46.74,
    "unidad": "puntos",
-   "observado": "2026-08-21"
+   "observado": "2026-08-24"
   }
  }
 }
