@@ -1,13 +1,13 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-08-28",
+ "fecha": "2026-08-29",
  "motor": "3.0.0",
  "indice": 69.37,
  "nivel": "alerta",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
  "sin_ajuste_del_gas": 61.37,
  "ajuste_del_gas": 8.0,
- "reservas_gas_ue_pct": 63.81,
+ "reservas_gas_ue_pct": 64.09,
  "reservas_normales_del_mes_pct": 81.0,
  "sensores": {
   "brent": {
