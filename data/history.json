@@ -102998,52 +102998,52 @@
     "version": "v2",
     "engine_version": "3.0.0",
     "date": "2026-08-28",
-    "updated": "2026-08-29T11:01:28Z",
-    "index": 69.37,
+    "updated": "2026-08-30T08:11:19Z",
+    "index": 68.61,
     "level": "alto",
     "signals": {
-      "primary_alert": 61.37,
-      "global_pressure": 55.96,
-      "predictive_core": 40.44,
-      "input_pressure": 40.44,
-      "food_pressure": 58.53,
-      "supply_shock": 74.17,
+      "primary_alert": 60.61,
+      "global_pressure": 55.53,
+      "predictive_core": 40.58,
+      "input_pressure": 40.58,
+      "food_pressure": 57.55,
+      "supply_shock": 73.01,
       "buffer_modifier": 8.0,
-      "amplifier_delta": 5.41
+      "amplifier_delta": 5.08
     },
     "pillars": {
       "brent": {
         "name": "Petroleo Brent",
-        "score": 60.06,
-        "current": 88.09,
+        "score": 60.09,
+        "current": 88.1,
         "unit": "$/barril",
         "observed_at": "2026-08-28"
       },
       "natural_gas": {
         "name": "Gas natural",
-        "score": 41.4,
-        "current": 66.555,
+        "score": 41.87,
+        "current": 66.979,
         "unit": "EUR/MWh",
         "observed_at": "2026-08-28"
       },
       "wheat": {
         "name": "Trigo",
-        "score": 82.78,
-        "current": 7.885,
+        "score": 81.36,
+        "current": 7.84,
         "unit": "$/bushel",
         "observed_at": "2026-08-28"
       },
       "corn": {
         "name": "Maiz",
-        "score": 46.95,
-        "current": 5.397,
+        "score": 45.75,
+        "current": 5.365,
         "unit": "$/bushel",
         "observed_at": "2026-08-28"
       },
       "sugar": {
         "name": "Azucar",
-        "score": 27.4,
-        "current": 17.54,
+        "score": 27.61,
+        "current": 17.56,
         "unit": "cents/lb",
         "observed_at": "2026-08-28"
       },
@@ -103070,8 +103070,8 @@
       },
       "ovx": {
         "name": "Volatilidad del crudo",
-        "score": 58.39,
-        "current": 44.49,
+        "score": 54.53,
+        "current": 43.49,
         "unit": "puntos",
         "observed_at": "2026-08-28"
       }
