@@ -1,7 +1,7 @@
 # Katastrofik
 
-# 68.61  ·  ALERTA
-### 30 de agosto de 2026
+# 69.41  ·  ALERTA
+### 31 de agosto de 2026
 
 Índice de tensión de la cesta de la compra española. De 0 a 100.
 Cada mañana se publica aquí la lectura del día.
