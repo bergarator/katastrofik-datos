@@ -1,56 +1,56 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-09-04",
+ "fecha": "2026-09-05",
  "motor": "3.0.0",
- "indice": 73.48,
+ "indice": 69.83,
  "nivel": "alerta",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 65.48,
+ "sin_ajuste_del_gas": 61.83,
  "ajuste_del_gas": 8.0,
- "reservas_gas_ue_pct": 65.85,
+ "reservas_gas_ue_pct": 66.08,
  "reservas_normales_del_mes_pct": 87.48,
  "sensores": {
   "brent": {
    "nombre": "Petroleo Brent",
-   "puntuacion": 80.62,
-   "valor": 95.5,
+   "puntuacion": 82.78,
+   "valor": 96.28,
    "unidad": "$/barril",
    "observado": "2026-09-04"
   },
   "natural_gas": {
    "nombre": "Gas natural",
-   "puntuacion": 49.28,
-   "valor": 73.634,
+   "puntuacion": 47.41,
+   "valor": 71.952,
    "unidad": "EUR/MWh",
-   "observado": "2026-09-02"
+   "observado": "2026-09-04"
   },
   "wheat": {
    "nombre": "Trigo",
-   "puntuacion": 70.03,
-   "valor": 7.482,
+   "puntuacion": 59.82,
+   "valor": 7.16,
    "unidad": "$/bushel",
    "observado": "2026-09-04"
   },
   "corn": {
    "nombre": "Maiz",
-   "puntuacion": 46.86,
-   "valor": 5.395,
+   "puntuacion": 36.7,
+   "valor": 5.12,
    "unidad": "$/bushel",
    "observado": "2026-09-04"
   },
   "sugar": {
    "nombre": "Azucar",
-   "puntuacion": 39.72,
-   "valor": 18.7,
+   "puntuacion": 33.03,
+   "valor": 18.07,
    "unidad": "cents/lb",
-   "observado": "2026-09-02"
+   "observado": "2026-09-04"
   },
   "eur_usd": {
    "nombre": "Euro vs dolar",
-   "puntuacion": 8.87,
-   "valor": 1.161,
+   "puntuacion": 8.35,
+   "valor": 1.162,
    "unidad": "USD por EUR",
-   "observado": "2026-09-03"
+   "observado": "2026-09-04"
   },
   "hormuz": {
    "nombre": "Trafico por Ormuz",
@@ -68,10 +68,10 @@
   },
   "ovx": {
    "nombre": "Volatilidad del crudo",
-   "puntuacion": 71.07,
-   "valor": 47.77,
+   "puntuacion": 60.21,
+   "valor": 44.96,
    "unidad": "puntos",
-   "observado": "2026-09-02"
+   "observado": "2026-09-04"
   }
  }
 }
