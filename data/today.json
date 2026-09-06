@@ -1,13 +1,13 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-09-05",
+ "fecha": "2026-09-06",
  "motor": "3.0.0",
- "indice": 69.83,
+ "indice": 71.06,
  "nivel": "alerta",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 61.83,
+ "sin_ajuste_del_gas": 63.06,
  "ajuste_del_gas": 8.0,
- "reservas_gas_ue_pct": 66.08,
+ "reservas_gas_ue_pct": 66.35,
  "reservas_normales_del_mes_pct": 87.48,
  "sensores": {
   "brent": {
@@ -26,22 +26,22 @@
   },
   "wheat": {
    "nombre": "Trigo",
-   "puntuacion": 59.82,
-   "valor": 7.16,
+   "puntuacion": 65.52,
+   "valor": 7.34,
    "unidad": "$/bushel",
    "observado": "2026-09-04"
   },
   "corn": {
    "nombre": "Maiz",
-   "puntuacion": 36.7,
-   "valor": 5.12,
+   "puntuacion": 45.84,
+   "valor": 5.367,
    "unidad": "$/bushel",
    "observado": "2026-09-04"
   },
   "sugar": {
    "nombre": "Azucar",
-   "puntuacion": 33.03,
-   "valor": 18.07,
+   "puntuacion": 32.5,
+   "valor": 18.02,
    "unidad": "cents/lb",
    "observado": "2026-09-04"
   },
