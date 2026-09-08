@@ -103574,5 +103574,88 @@
         "observed_at": "2026-09-04"
       }
     }
+  },
+  {
+    "version": "v2",
+    "engine_version": "3.0.0",
+    "date": "2026-09-08",
+    "updated": "2026-09-08T06:08:43Z",
+    "index": 72.75,
+    "level": "alto",
+    "signals": {
+      "primary_alert": 64.75,
+      "global_pressure": 64.03,
+      "predictive_core": 55.26,
+      "input_pressure": 55.26,
+      "food_pressure": 56.19,
+      "supply_shock": 73.83,
+      "buffer_modifier": 8.0,
+      "amplifier_delta": 0.72
+    },
+    "pillars": {
+      "brent": {
+        "name": "Petroleo Brent",
+        "score": 88.11,
+        "current": 98.2,
+        "unit": "$/barril",
+        "observed_at": "2026-09-08"
+      },
+      "natural_gas": {
+        "name": "Gas natural",
+        "score": 47.41,
+        "current": 71.952,
+        "unit": "EUR/MWh",
+        "observed_at": "2026-09-04"
+      },
+      "wheat": {
+        "name": "Trigo",
+        "score": 74.07,
+        "current": 7.61,
+        "unit": "$/bushel",
+        "observed_at": "2026-09-08"
+      },
+      "corn": {
+        "name": "Maiz",
+        "score": 47.78,
+        "current": 5.42,
+        "unit": "$/bushel",
+        "observed_at": "2026-09-08"
+      },
+      "sugar": {
+        "name": "Azucar",
+        "score": 33.03,
+        "current": 18.07,
+        "unit": "cents/lb",
+        "observed_at": "2026-09-04"
+      },
+      "eur_usd": {
+        "name": "Euro vs dolar",
+        "score": 8.35,
+        "current": 1.162,
+        "unit": "USD por EUR",
+        "observed_at": "2026-09-07"
+      },
+      "hormuz": {
+        "name": "Trafico por Ormuz",
+        "score": 100.0,
+        "current": 4.286,
+        "unit": "buques/dia (media 7d)",
+        "observed_at": "2026-08-30"
+      },
+      "gpr": {
+        "name": "Riesgo geopolitico",
+        "score": 52.54,
+        "current": 145.449,
+        "unit": "indice GPR",
+        "observed_at": "2026-09-01"
+      },
+      "ovx": {
+        "name": "Volatilidad del crudo",
+        "score": 60.21,
+        "current": 44.96,
+        "unit": "puntos",
+        "observed_at": "2026-09-04"
+      }
+    }
   }
 ]
