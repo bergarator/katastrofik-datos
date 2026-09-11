@@ -1,56 +1,56 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-09-10",
+ "fecha": "2026-09-11",
  "motor": "3.0.0",
- "indice": 75.88,
+ "indice": 80.56,
  "nivel": "crisis",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 67.88,
+ "sin_ajuste_del_gas": 72.56,
  "ajuste_del_gas": 8.0,
  "reservas_gas_ue_pct": 66.9,
  "reservas_normales_del_mes_pct": 87.48,
  "sensores": {
   "brent": {
    "nombre": "Petroleo Brent",
-   "puntuacion": 94.44,
-   "valor": 100.48,
+   "puntuacion": 100.0,
+   "valor": 106.09,
    "unidad": "$/barril",
-   "observado": "2026-09-10"
+   "observado": "2026-09-11"
   },
   "natural_gas": {
    "nombre": "Gas natural",
-   "puntuacion": 55.53,
-   "valor": 79.246,
+   "puntuacion": 58.65,
+   "valor": 82.047,
    "unidad": "EUR/MWh",
-   "observado": "2026-09-09"
+   "observado": "2026-09-10"
   },
   "wheat": {
    "nombre": "Trigo",
-   "puntuacion": 63.3,
-   "valor": 7.27,
+   "puntuacion": 65.68,
+   "valor": 7.345,
    "unidad": "$/bushel",
-   "observado": "2026-09-10"
+   "observado": "2026-09-11"
   },
   "corn": {
    "nombre": "Maiz",
    "puntuacion": 42.8,
    "valor": 5.285,
    "unidad": "$/bushel",
-   "observado": "2026-09-10"
+   "observado": "2026-09-11"
   },
   "sugar": {
    "nombre": "Azucar",
-   "puntuacion": 36.53,
-   "valor": 18.4,
+   "puntuacion": 40.04,
+   "valor": 18.73,
    "unidad": "cents/lb",
-   "observado": "2026-09-09"
+   "observado": "2026-09-10"
   },
   "eur_usd": {
    "nombre": "Euro vs dolar",
-   "puntuacion": 6.11,
-   "valor": 1.165,
+   "puntuacion": 8.79,
+   "valor": 1.162,
    "unidad": "USD por EUR",
-   "observado": "2026-09-09"
+   "observado": "2026-09-10"
   },
   "hormuz": {
    "nombre": "Trafico por Ormuz",
@@ -68,10 +68,10 @@
   },
   "ovx": {
    "nombre": "Volatilidad del crudo",
-   "puntuacion": 79.11,
-   "valor": 49.85,
+   "puntuacion": 100.0,
+   "valor": 60.76,
    "unidad": "puntos",
-   "observado": "2026-09-09"
+   "observado": "2026-09-10"
   }
  }
 }
