@@ -1,56 +1,56 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-09-16",
+ "fecha": "2026-09-17",
  "motor": "3.0.0",
- "indice": 82.79,
+ "indice": 82.03,
  "nivel": "crisis",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 74.79,
+ "sin_ajuste_del_gas": 74.03,
  "ajuste_del_gas": 8.0,
- "reservas_gas_ue_pct": 68.49,
+ "reservas_gas_ue_pct": 68.66,
  "reservas_normales_del_mes_pct": 87.48,
  "sensores": {
   "brent": {
    "nombre": "Petroleo Brent",
-   "puntuacion": 100.0,
-   "valor": 108.2,
+   "puntuacion": 93.3,
+   "valor": 100.07,
    "unidad": "$/barril",
-   "observado": "2026-09-16"
+   "observado": "2026-09-17"
   },
   "natural_gas": {
    "nombre": "Gas natural",
-   "puntuacion": 56.44,
-   "valor": 80.06,
+   "puntuacion": 54.18,
+   "valor": 78.03,
    "unidad": "EUR/MWh",
-   "observado": "2026-09-15"
+   "observado": "2026-09-16"
   },
   "wheat": {
    "nombre": "Trigo",
-   "puntuacion": 65.92,
-   "valor": 7.353,
+   "puntuacion": 64.17,
+   "valor": 7.298,
    "unidad": "$/bushel",
-   "observado": "2026-09-16"
+   "observado": "2026-09-17"
   },
   "corn": {
    "nombre": "Maiz",
-   "puntuacion": 46.12,
-   "valor": 5.375,
+   "puntuacion": 45.38,
+   "valor": 5.355,
    "unidad": "$/bushel",
-   "observado": "2026-09-16"
+   "observado": "2026-09-17"
   },
   "sugar": {
    "nombre": "Azucar",
-   "puntuacion": 31.65,
-   "valor": 17.94,
+   "puntuacion": 40.99,
+   "valor": 18.82,
    "unidad": "cents/lb",
-   "observado": "2026-09-15"
+   "observado": "2026-09-17"
   },
   "eur_usd": {
    "nombre": "Euro vs dolar",
-   "puntuacion": 14.54,
+   "puntuacion": 14.69,
    "valor": 1.154,
    "unidad": "USD por EUR",
-   "observado": "2026-09-15"
+   "observado": "2026-09-16"
   },
   "hormuz": {
    "nombre": "Trafico por Ormuz",
@@ -69,9 +69,9 @@
   "ovx": {
    "nombre": "Volatilidad del crudo",
    "puntuacion": 100.0,
-   "valor": 61.73,
+   "valor": 57.49,
    "unidad": "puntos",
-   "observado": "2026-09-15"
+   "observado": "2026-09-16"
   }
  }
 }
