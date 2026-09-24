@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T06:09:10Z",
+  "updated": "2026-09-24T06:09:07Z",
   "engine_version": "3.0.0",
   "metric": {
     "name": "Katastrofik",
@@ -9,8 +9,8 @@
     "what_it_is_not": "No estima el ticket exacto del supermercado ni sustituye al IPC. Sirve para detectar tension antes de que aparezca del todo en el precio final.",
     "best_use": "Ayuda a anticipar decisiones de presupuesto, compras no perecederas, margenes y comunicacion antes de que el traslado al consumidor sea evidente."
   },
-  "index": 76.11,
-  "index_raw": 68.11,
+  "index": 77.8,
+  "index_raw": 69.8,
   "inventory_buffer": {
     "key": "gas_storage_eu",
     "name": "Almacenes de gas UE",
@@ -19,7 +19,7 @@
     "anomaly_pp": -17.54,
     "modifier_points": 8.0,
     "observed_at": "2026-09-20",
-    "freshness_days": 3,
+    "freshness_days": 4,
     "note": "Los almacenes de gas europeos estan al 69.9%, 17.5 puntos por DEBAJO de lo normal para esta epoca. Sin colchon, el shock se traslada antes (suma 8.0 puntos al indice).",
     "source": {
       "name": "Cache local",
@@ -95,7 +95,7 @@
     "primary_alert": {
       "name": "Alerta adelantada",
       "description": "Senal principal del producto. Pondera 9 pilares diarios: precios (50%), logistica maritima (20%), riesgo geopolitico (15%) y estres de mercado (15%). Los inventarios de gas ajustan el resultado final.",
-      "value": 68.11,
+      "value": 69.8,
       "level": "alto",
       "level_label": "Alerta. Presion significativa en la cadena.",
       "pillar_keys": [
@@ -126,7 +126,7 @@
     "explanatory_radar": {
       "name": "Radar explicativo",
       "description": "Capa secundaria del producto. Resume los 9 pilares diarios para explicar que motores estan empujando la tension del momento.",
-      "value": 68.11,
+      "value": 69.8,
       "level": "alto",
       "level_label": "Alerta. Presion significativa en la cadena.",
       "pillar_keys": [
@@ -157,7 +157,7 @@
     "global_pressure": {
       "name": "Presion global",
       "description": "Mide la tension internacional en energia y materias primas alimentarias.",
-      "value": 59.56,
+      "value": 58.85,
       "level": "alto",
       "level_label": "Alerta. Presion significativa en la cadena.",
       "pillar_keys": [
@@ -174,7 +174,7 @@
     "predictive_core": {
       "name": "Core de mercado",
       "description": "Lectura rapida del bloque de energia y divisa.",
-      "value": 59.35,
+      "value": 59.73,
       "level": "alto",
       "level_label": "Alerta. Presion significativa en la cadena.",
       "pillar_keys": [
@@ -189,7 +189,7 @@
     "input_pressure": {
       "name": "Presion en inputs",
       "description": "Lectura adelantada de energia y divisa.",
-      "value": 59.35,
+      "value": 59.73,
       "level": "alto",
       "level_label": "Alerta. Presion significativa en la cadena.",
       "pillar_keys": [
@@ -204,7 +204,7 @@
     "food_pressure": {
       "name": "Presion en alimentos",
       "description": "Lectura diaria del bloque de materias primas alimentarias.",
-      "value": 46.7,
+      "value": 46.19,
       "level": "moderado",
       "level_label": "Atencion. Algunos indicadores suben.",
       "pillar_keys": [
@@ -219,7 +219,7 @@
     "supply_shock": {
       "name": "Shock de suministro",
       "description": "Bloque adelantado: trafico maritimo, riesgo geopolitico y volatilidad. Se tensa antes que los precios.",
-      "value": 82.56,
+      "value": 85.96,
       "level": "critico",
       "level_label": "Crisis. Impacto en precios mas probable.",
       "pillar_keys": [
@@ -233,14 +233,14 @@
     }
   },
   "amplifier": {
-    "delta_points": 8.55,
+    "delta_points": 10.95,
     "headline": "Hay presion extra mas alla de los precios: el transporte, el riesgo geopolitico, la volatilidad y la divisa anaden tension sobre las materias primas."
   },
   "transmission": {
     "headline": "Los costes de energia y divisa van por delante de los alimentos.",
     "implication": "La presion esta mas visible en Brent, gas o euro/dolar que en trigo, maiz y azucar. La factura de luz y el carburante lo notan en 0-1 mes; el supermercado suele tardar 6 a 12 meses (medido en 2015-2026).",
-    "input_pressure": 59.35,
-    "food_pressure": 46.7,
+    "input_pressure": 59.73,
+    "food_pressure": 46.19,
     "expected_window": "energia: 0-1 mes | supermercado: 6-12 meses o mas",
     "validation_note": "El dato oficial, para comprobarlo: los alimentos en Espana suben un 2.3% interanual segun el INE. Ese dato llega con meses de retraso; este indice intenta avisar antes."
   },
@@ -250,8 +250,8 @@
     "Los almacenes de gas europeos estan al 69.9%, 17.5 puntos por DEBAJO de lo normal para esta epoca. Sin colchon, el shock se traslada antes (suma 8.0 puntos al indice)."
   ],
   "trend": {
-    "value": -6.31,
-    "label": "-6.3",
+    "value": -4.99,
+    "label": "-5.0",
     "direction": "down"
   },
   "state_phrase": "Varios indicadores suben. La cadena empieza a tensarse.",
@@ -292,18 +292,18 @@
     {
       "key": "ovx",
       "name": "Volatilidad del crudo",
-      "contribution_points": 12.13,
-      "score": 80.89,
+      "contribution_points": 13.83,
+      "score": 92.21,
       "weight": 0.15,
-      "change_from_baseline_pct": -22.22
+      "change_from_baseline_pct": -17.69
     },
     {
       "key": "brent",
       "name": "Petroleo Brent",
-      "contribution_points": 11.13,
-      "score": 89.08,
+      "contribution_points": 11.06,
+      "score": 88.47,
       "weight": 0.125,
-      "change_from_baseline_pct": 35.97
+      "change_from_baseline_pct": 35.67
     },
     {
       "key": "gpr",
@@ -316,42 +316,42 @@
     {
       "key": "wheat",
       "name": "Trigo",
-      "contribution_points": 5.78,
-      "score": 57.84,
+      "contribution_points": 5.68,
+      "score": 56.81,
       "weight": 0.1,
-      "change_from_baseline_pct": 20.04
+      "change_from_baseline_pct": 19.49
     },
     {
       "key": "natural_gas",
       "name": "Gas natural",
-      "contribution_points": 3.67,
-      "score": 48.95,
+      "contribution_points": 3.56,
+      "score": 47.47,
       "weight": 0.075,
-      "change_from_baseline_pct": 129.48
+      "change_from_baseline_pct": 125.32
     },
     {
       "key": "corn",
       "name": "Maiz",
-      "contribution_points": 3.33,
-      "score": 44.37,
+      "contribution_points": 3.23,
+      "score": 43.07,
       "weight": 0.075,
-      "change_from_baseline_pct": 21.42
+      "change_from_baseline_pct": 20.63
     },
     {
       "key": "eur_usd",
       "name": "Euro vs dolar",
-      "contribution_points": 1.51,
-      "score": 20.2,
+      "contribution_points": 1.81,
+      "score": 24.09,
       "weight": 0.075,
-      "change_from_baseline_pct": -2.9
+      "change_from_baseline_pct": -3.34
     },
     {
       "key": "sugar",
       "name": "Azucar",
-      "contribution_points": 1.4,
-      "score": 27.93,
+      "contribution_points": 1.48,
+      "score": 29.63,
       "weight": 0.05,
-      "change_from_baseline_pct": 23.01
+      "change_from_baseline_pct": 24.13
     }
   ],
   "top_contributors": [
@@ -366,18 +366,18 @@
     {
       "key": "ovx",
       "name": "Volatilidad del crudo",
-      "contribution_points": 12.13,
-      "score": 80.89,
+      "contribution_points": 13.83,
+      "score": 92.21,
       "weight": 0.15,
-      "change_from_baseline_pct": -22.22
+      "change_from_baseline_pct": -17.69
     },
     {
       "key": "brent",
       "name": "Petroleo Brent",
-      "contribution_points": 11.13,
-      "score": 89.08,
+      "contribution_points": 11.06,
+      "score": 88.47,
       "weight": 0.125,
-      "change_from_baseline_pct": 35.97
+      "change_from_baseline_pct": 35.67
     },
     {
       "key": "gpr",
@@ -390,42 +390,42 @@
     {
       "key": "wheat",
       "name": "Trigo",
-      "contribution_points": 5.78,
-      "score": 57.84,
+      "contribution_points": 5.68,
+      "score": 56.81,
       "weight": 0.1,
-      "change_from_baseline_pct": 20.04
+      "change_from_baseline_pct": 19.49
     },
     {
       "key": "natural_gas",
       "name": "Gas natural",
-      "contribution_points": 3.67,
-      "score": 48.95,
+      "contribution_points": 3.56,
+      "score": 47.47,
       "weight": 0.075,
-      "change_from_baseline_pct": 129.48
+      "change_from_baseline_pct": 125.32
     },
     {
       "key": "corn",
       "name": "Maiz",
-      "contribution_points": 3.33,
-      "score": 44.37,
+      "contribution_points": 3.23,
+      "score": 43.07,
       "weight": 0.075,
-      "change_from_baseline_pct": 21.42
+      "change_from_baseline_pct": 20.63
     },
     {
       "key": "eur_usd",
       "name": "Euro vs dolar",
-      "contribution_points": 1.51,
-      "score": 20.2,
+      "contribution_points": 1.81,
+      "score": 24.09,
       "weight": 0.075,
-      "change_from_baseline_pct": -2.9
+      "change_from_baseline_pct": -3.34
     },
     {
       "key": "sugar",
       "name": "Azucar",
-      "contribution_points": 1.4,
-      "score": 27.93,
+      "contribution_points": 1.48,
+      "score": 29.63,
       "weight": 0.05,
-      "change_from_baseline_pct": 23.01
+      "change_from_baseline_pct": 24.13
     }
   ],
   "pillars": {
@@ -436,15 +436,15 @@
       "status_key": "high",
       "status_label": "presion alta",
       "category": "energia",
-      "current": 98.55,
+      "current": 98.33,
       "unit": "$/barril",
       "frequency": "daily",
-      "observed_at": "2026-09-23",
+      "observed_at": "2026-09-24",
       "freshness_days": 0,
       "baseline_value": 72.48,
       "baseline_observed_at": "2026-02-27",
-      "change_from_baseline_pct": 35.97,
-      "score": 89.08,
+      "change_from_baseline_pct": 35.67,
+      "score": 88.47,
       "weight": 0.125,
       "range_5y": {
         "min": 58.92,
@@ -454,7 +454,7 @@
       },
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?period1=1569196800&period2=1790208000&interval=1d&includePrePost=false&events=div,splits",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?period1=1569283200&period2=1790294400&interval=1d&includePrePost=false&events=div,splits",
         "tier": "primary",
         "cached_at": null
       },
@@ -463,7 +463,6 @@
       "transmission_window": "0-1 mes a carburante y transporte (medido 2015-2026)",
       "note": "Proxy diario via futuros Brent ICE. | Serie diaria desde Yahoo Finance.",
       "sparkline": [
-        87.07,
         88.52,
         90.87,
         91.02,
@@ -492,17 +491,18 @@
         103.87,
         100.34,
         99.25,
-        98.55
+        103.08,
+        98.33
       ],
       "contrato": {
-        "nombre": "Nov 26",
-        "simbolo": "BZX26.NYM",
-        "comprobado": "2026-09-23",
+        "nombre": "Dic 26",
+        "simbolo": "BZZ26.NYM",
+        "comprobado": "2026-09-24",
         "salto": {
-          "desde": "2026-09-22",
-          "precio": 0.0,
-          "puntos": 0.0,
-          "indice": 0.0
+          "desde": "2026-09-23",
+          "precio": -4.96,
+          "puntos": -11.53,
+          "indice": -1.44
         }
       }
     },
@@ -513,15 +513,15 @@
       "status_key": "moving",
       "status_label": "en movimiento",
       "category": "energia",
-      "current": 73.34,
+      "current": 72.01,
       "unit": "EUR/MWh",
       "frequency": "daily",
-      "observed_at": "2026-09-22",
+      "observed_at": "2026-09-23",
       "freshness_days": 1,
       "baseline_value": 31.959,
       "baseline_observed_at": "2026-02-27",
-      "change_from_baseline_pct": 129.48,
-      "score": 48.95,
+      "change_from_baseline_pct": 125.32,
+      "score": 47.47,
       "weight": 0.075,
       "range_5y": {
         "min": 22.934,
@@ -531,7 +531,7 @@
       },
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://query1.finance.yahoo.com/v8/finance/chart/TTF%3DF?period1=1569196800&period2=1790208000&interval=1d&includePrePost=false&events=div,splits",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/TTF%3DF?period1=1569283200&period2=1790294400&interval=1d&includePrePost=false&events=div,splits",
         "tier": "primary",
         "cached_at": null
       },
@@ -540,7 +540,6 @@
       "transmission_window": "mismo mes a la factura de luz/gas; 6-12 meses a alimentos",
       "note": "Proxy diario via futuros Dutch TTF ICE. Benchmark europeo de gas natural. | Serie diaria desde Yahoo Finance.",
       "sparkline": [
-        58.735,
         61.021,
         60.4,
         61.424,
@@ -569,14 +568,15 @@
         76.352,
         79.518,
         73.253,
-        73.34
+        73.34,
+        72.01
       ],
       "contrato": {
         "nombre": "Oct 26",
         "simbolo": "TTFV26.NYM",
-        "comprobado": "2026-09-22",
+        "comprobado": "2026-09-23",
         "salto": {
-          "desde": "2026-09-21",
+          "desde": "2026-09-22",
           "precio": 0.0,
           "puntos": 0.0,
           "indice": 0.0
@@ -590,15 +590,15 @@
       "status_key": "moving",
       "status_label": "en movimiento",
       "category": "alimentos",
-      "current": 7.098,
+      "current": 7.065,
       "unit": "$/bushel",
       "frequency": "daily",
-      "observed_at": "2026-09-23",
+      "observed_at": "2026-09-24",
       "freshness_days": 0,
       "baseline_value": 5.912,
       "baseline_observed_at": "2026-02-27",
-      "change_from_baseline_pct": 20.04,
-      "score": 57.84,
+      "change_from_baseline_pct": 19.49,
+      "score": 56.81,
       "weight": 0.1,
       "range_5y": {
         "min": 4.95,
@@ -608,7 +608,7 @@
       },
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZW%3DF?period1=1569196800&period2=1790208000&interval=1d&includePrePost=false&events=div,splits",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZW%3DF?period1=1569283200&period2=1790294400&interval=1d&includePrePost=false&events=div,splits",
         "tier": "primary",
         "cached_at": null
       },
@@ -617,7 +617,6 @@
       "transmission_window": "6-12 meses al pan (pico medido: ~11 meses)",
       "note": "Proxy diario via futuros SRW de Chicago. Se convierte de cents/bushel a $/bushel. | Proxy diario via futuros SRW de Chicago.",
       "sparkline": [
-        6.527,
         6.527,
         6.747,
         6.747,
@@ -646,14 +645,15 @@
         7.143,
         7.268,
         7.173,
-        7.098
+        7.085,
+        7.065
       ],
       "contrato": {
         "nombre": "Dic 26",
         "simbolo": "ZWZ26.CBT",
-        "comprobado": "2026-09-23",
+        "comprobado": "2026-09-24",
         "salto": {
-          "desde": "2026-09-22",
+          "desde": "2026-09-23",
           "precio": 0.0,
           "puntos": 0.0,
           "indice": 0.0
@@ -667,15 +667,15 @@
       "status_key": "moving",
       "status_label": "en movimiento",
       "category": "alimentos",
-      "current": 5.327,
+      "current": 5.293,
       "unit": "$/bushel",
       "frequency": "daily",
-      "observed_at": "2026-09-23",
+      "observed_at": "2026-09-24",
       "freshness_days": 0,
       "baseline_value": 4.388,
       "baseline_observed_at": "2026-02-27",
-      "change_from_baseline_pct": 21.42,
-      "score": 44.37,
+      "change_from_baseline_pct": 20.63,
+      "score": 43.07,
       "weight": 0.075,
       "range_5y": {
         "min": 3.62,
@@ -685,7 +685,7 @@
       },
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZC%3DF?period1=1569196800&period2=1790208000&interval=1d&includePrePost=false&events=div,splits",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZC%3DF?period1=1569283200&period2=1790294400&interval=1d&includePrePost=false&events=div,splits",
         "tier": "primary",
         "cached_at": null
       },
@@ -694,7 +694,6 @@
       "transmission_window": "6-12+ meses a carne y lacteos",
       "note": "Proxy diario via futuros de maiz CBOT. Se convierte de cents/bushel a $/bushel. | Proxy diario via futuros de maiz CBOT.",
       "sparkline": [
-        4.57,
         4.48,
         4.59,
         4.65,
@@ -723,14 +722,15 @@
         5.275,
         5.43,
         5.367,
-        5.327
+        5.29,
+        5.293
       ],
       "contrato": {
         "nombre": "Dic 26",
         "simbolo": "ZCZ26.CBT",
-        "comprobado": "2026-09-23",
+        "comprobado": "2026-09-24",
         "salto": {
-          "desde": "2026-09-22",
+          "desde": "2026-09-23",
           "precio": 0.0,
           "puntos": 0.0,
           "indice": 0.0
@@ -744,15 +744,15 @@
       "status_key": "low",
       "status_label": "sin presion",
       "category": "alimentos",
-      "current": 17.59,
+      "current": 17.75,
       "unit": "cents/lb",
       "frequency": "daily",
-      "observed_at": "2026-09-22",
+      "observed_at": "2026-09-23",
       "freshness_days": 1,
       "baseline_value": 14.3,
       "baseline_observed_at": "2026-02-27",
-      "change_from_baseline_pct": 23.01,
-      "score": 27.93,
+      "change_from_baseline_pct": 24.13,
+      "score": 29.63,
       "weight": 0.05,
       "range_5y": {
         "min": 13.31,
@@ -762,7 +762,7 @@
       },
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://query1.finance.yahoo.com/v8/finance/chart/SB%3DF?period1=1569196800&period2=1790208000&interval=1d&includePrePost=false&events=div,splits",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/SB%3DF?period1=1569283200&period2=1790294400&interval=1d&includePrePost=false&events=div,splits",
         "tier": "primary",
         "cached_at": null
       },
@@ -771,7 +771,6 @@
       "transmission_window": "6-12 meses a procesados (senal debil)",
       "note": "Proxy diario via futuros ICE No. 11. | Proxy diario via futuros ICE No. 11.",
       "sparkline": [
-        16.73,
         16.42,
         16.82,
         16.6,
@@ -800,14 +799,15 @@
         17.42,
         17.36,
         17.48,
-        17.59
+        17.59,
+        17.75
       ],
       "contrato": {
         "nombre": "Oct 26",
         "simbolo": "SBV26.NYB",
-        "comprobado": "2026-09-22",
+        "comprobado": "2026-09-23",
         "salto": {
-          "desde": "2026-09-21",
+          "desde": "2026-09-22",
           "precio": 0.0,
           "puntos": 0.0,
           "indice": 0.0
@@ -821,15 +821,15 @@
       "status_key": "low",
       "status_label": "sin presion",
       "category": "divisa",
-      "current": 1.146,
+      "current": 1.141,
       "unit": "USD por EUR",
       "frequency": "daily",
-      "observed_at": "2026-09-22",
+      "observed_at": "2026-09-23",
       "freshness_days": 1,
       "baseline_value": 1.18,
       "baseline_observed_at": "2026-02-27",
-      "change_from_baseline_pct": -2.9,
-      "score": 20.2,
+      "change_from_baseline_pct": -3.34,
+      "score": 24.09,
       "weight": 0.075,
       "range_5y": {
         "min": 0.956,
@@ -839,7 +839,7 @@
       },
       "source": {
         "name": "Frankfurter",
-        "url": "https://api.frankfurter.dev/v1/2019-09-23..2026-09-23?base=USD&symbols=EUR",
+        "url": "https://api.frankfurter.dev/v1/2019-09-24..2026-09-24?base=USD&symbols=EUR",
         "tier": "primary",
         "cached_at": null
       },
@@ -848,7 +848,6 @@
       "transmission_window": "inmediato (amplifica al resto, no predice por si solo)",
       "note": "Frankfurter devuelve EUR por USD con base=USD. El motor lo convierte a USD por EUR antes de puntuar. | Tipo de cambio BCE via Frankfurter. Convertido de EUR por USD a USD por EUR.",
       "sparkline": [
-        1.154,
         1.153,
         1.157,
         1.159,
@@ -877,7 +876,8 @@
         1.148,
         1.146,
         1.149,
-        1.146
+        1.146,
+        1.141
       ]
     },
     "hormuz": {
@@ -891,7 +891,7 @@
       "unit": "buques/dia (media 7d)",
       "frequency": "daily",
       "observed_at": "2026-09-20",
-      "freshness_days": 3,
+      "freshness_days": 4,
       "baseline_value": 92.857,
       "baseline_observed_at": "2026-02-28",
       "change_from_baseline_pct": -96.62,
@@ -957,7 +957,7 @@
       "unit": "indice GPR",
       "frequency": "daily",
       "observed_at": "2026-09-21",
-      "freshness_days": 2,
+      "freshness_days": 3,
       "baseline_value": 144.613,
       "baseline_observed_at": "2026-02-28",
       "change_from_baseline_pct": 7.25,
@@ -1019,15 +1019,15 @@
       "status_key": "high",
       "status_label": "presion alta",
       "category": "mercado",
-      "current": 50.31,
+      "current": 53.24,
       "unit": "puntos",
       "frequency": "daily",
-      "observed_at": "2026-09-21",
-      "freshness_days": 2,
+      "observed_at": "2026-09-23",
+      "freshness_days": 1,
       "baseline_value": 64.68,
       "baseline_observed_at": "2026-02-27",
-      "change_from_baseline_pct": -22.22,
-      "score": 80.89,
+      "change_from_baseline_pct": -17.69,
+      "score": 92.21,
       "weight": 0.15,
       "range_5y": {
         "min": 23.73,
@@ -1037,7 +1037,7 @@
       },
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EOVX?period1=1569196800&period2=1790208000&interval=1d&includePrePost=false&events=div,splits",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EOVX?period1=1569283200&period2=1790294400&interval=1d&includePrePost=false&events=div,splits",
         "tier": "primary",
         "cached_at": null
       },
@@ -1046,7 +1046,6 @@
       "transmission_window": "termometro de nervios; sin plazo directo al IPC",
       "note": "CBOE Crude Oil Volatility Index via Yahoo Finance. | Serie diaria desde Yahoo Finance.",
       "sparkline": [
-        56.06,
         54.99,
         52.34,
         49.36,
@@ -1075,7 +1074,8 @@
         57.49,
         52.11,
         50.39,
-        50.31
+        50.31,
+        53.24
       ]
     }
   },
@@ -1092,7 +1092,7 @@
       "unit": "buques/dia (media 7d)",
       "frequency": "daily",
       "observed_at": "2026-09-20",
-      "freshness_days": 3,
+      "freshness_days": 4,
       "baseline_value": 92.857,
       "baseline_observed_at": "2026-02-28",
       "change_from_baseline_pct": -96.62,
@@ -1148,84 +1148,6 @@
       ]
     },
     {
-      "key": "brent",
-      "name": "Petroleo Brent",
-      "consumer_name": "Transporte y envases",
-      "consumer_text": "El petroleo esta alto. Encarece camiones, plasticos y envases. Todo lo que se mueve o se empaqueta cuesta mas.",
-      "status_key": "high",
-      "status_label": "presion alta",
-      "category": "energia",
-      "current": 98.55,
-      "unit": "$/barril",
-      "frequency": "daily",
-      "observed_at": "2026-09-23",
-      "freshness_days": 0,
-      "baseline_value": 72.48,
-      "baseline_observed_at": "2026-02-27",
-      "change_from_baseline_pct": 35.97,
-      "score": 89.08,
-      "weight": 0.125,
-      "range_5y": {
-        "min": 58.92,
-        "max": 127.98,
-        "p10": 66.446,
-        "p90": 102.484
-      },
-      "source": {
-        "name": "Yahoo Finance",
-        "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?period1=1569196800&period2=1790208000&interval=1d&includePrePost=false&events=div,splits",
-        "tier": "primary",
-        "cached_at": null
-      },
-      "context": "Espana importa casi todo su petroleo. Impacta transporte, combustible agricola y packaging.",
-      "decision_use": "Sirve para anticipar presion rapida en transporte, combustible y envases.",
-      "transmission_window": "0-1 mes a carburante y transporte (medido 2015-2026)",
-      "note": "Proxy diario via futuros Brent ICE. | Serie diaria desde Yahoo Finance.",
-      "sparkline": [
-        87.07,
-        88.52,
-        90.87,
-        91.02,
-        91.62,
-        93.78,
-        94.39,
-        92.17,
-        88.58,
-        87.84,
-        89.7,
-        89.31,
-        90.49,
-        94.65,
-        95.63,
-        95.52,
-        96.28,
-        96.28,
-        97.92,
-        101.21,
-        107.63,
-        104.61,
-        105.68,
-        108.75,
-        105.83,
-        104.82,
-        103.87,
-        100.34,
-        99.25,
-        98.55
-      ],
-      "contrato": {
-        "nombre": "Nov 26",
-        "simbolo": "BZX26.NYM",
-        "comprobado": "2026-09-23",
-        "salto": {
-          "desde": "2026-09-22",
-          "precio": 0.0,
-          "puntos": 0.0,
-          "indice": 0.0
-        }
-      }
-    },
-    {
       "key": "ovx",
       "name": "Volatilidad del crudo",
       "consumer_name": "Nervios del mercado",
@@ -1233,15 +1155,15 @@
       "status_key": "high",
       "status_label": "presion alta",
       "category": "mercado",
-      "current": 50.31,
+      "current": 53.24,
       "unit": "puntos",
       "frequency": "daily",
-      "observed_at": "2026-09-21",
-      "freshness_days": 2,
+      "observed_at": "2026-09-23",
+      "freshness_days": 1,
       "baseline_value": 64.68,
       "baseline_observed_at": "2026-02-27",
-      "change_from_baseline_pct": -22.22,
-      "score": 80.89,
+      "change_from_baseline_pct": -17.69,
+      "score": 92.21,
       "weight": 0.15,
       "range_5y": {
         "min": 23.73,
@@ -1251,7 +1173,7 @@
       },
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EOVX?period1=1569196800&period2=1790208000&interval=1d&includePrePost=false&events=div,splits",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EOVX?period1=1569283200&period2=1790294400&interval=1d&includePrePost=false&events=div,splits",
         "tier": "primary",
         "cached_at": null
       },
@@ -1260,7 +1182,6 @@
       "transmission_window": "termometro de nervios; sin plazo directo al IPC",
       "note": "CBOE Crude Oil Volatility Index via Yahoo Finance. | Serie diaria desde Yahoo Finance.",
       "sparkline": [
-        56.06,
         54.99,
         52.34,
         49.36,
@@ -1289,8 +1210,87 @@
         57.49,
         52.11,
         50.39,
-        50.31
+        50.31,
+        53.24
       ]
+    },
+    {
+      "key": "brent",
+      "name": "Petroleo Brent",
+      "consumer_name": "Transporte y envases",
+      "consumer_text": "El petroleo esta alto. Encarece camiones, plasticos y envases. Todo lo que se mueve o se empaqueta cuesta mas.",
+      "status_key": "high",
+      "status_label": "presion alta",
+      "category": "energia",
+      "current": 98.33,
+      "unit": "$/barril",
+      "frequency": "daily",
+      "observed_at": "2026-09-24",
+      "freshness_days": 0,
+      "baseline_value": 72.48,
+      "baseline_observed_at": "2026-02-27",
+      "change_from_baseline_pct": 35.67,
+      "score": 88.47,
+      "weight": 0.125,
+      "range_5y": {
+        "min": 58.92,
+        "max": 127.98,
+        "p10": 66.446,
+        "p90": 102.484
+      },
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?period1=1569283200&period2=1790294400&interval=1d&includePrePost=false&events=div,splits",
+        "tier": "primary",
+        "cached_at": null
+      },
+      "context": "Espana importa casi todo su petroleo. Impacta transporte, combustible agricola y packaging.",
+      "decision_use": "Sirve para anticipar presion rapida en transporte, combustible y envases.",
+      "transmission_window": "0-1 mes a carburante y transporte (medido 2015-2026)",
+      "note": "Proxy diario via futuros Brent ICE. | Serie diaria desde Yahoo Finance.",
+      "sparkline": [
+        88.52,
+        90.87,
+        91.02,
+        91.62,
+        93.78,
+        94.39,
+        92.17,
+        88.58,
+        87.84,
+        89.7,
+        89.31,
+        90.49,
+        94.65,
+        95.63,
+        95.52,
+        96.28,
+        96.28,
+        97.92,
+        101.21,
+        107.63,
+        104.61,
+        105.68,
+        108.75,
+        105.83,
+        104.82,
+        103.87,
+        100.34,
+        99.25,
+        103.08,
+        98.33
+      ],
+      "contrato": {
+        "nombre": "Dic 26",
+        "simbolo": "BZZ26.NYM",
+        "comprobado": "2026-09-24",
+        "salto": {
+          "desde": "2026-09-23",
+          "precio": -4.96,
+          "puntos": -11.53,
+          "indice": -1.44
+        }
+      }
     },
     {
       "key": "gpr",
@@ -1304,7 +1304,7 @@
       "unit": "indice GPR",
       "frequency": "daily",
       "observed_at": "2026-09-21",
-      "freshness_days": 2,
+      "freshness_days": 3,
       "baseline_value": 144.613,
       "baseline_observed_at": "2026-02-28",
       "change_from_baseline_pct": 7.25,
@@ -1367,15 +1367,15 @@
       "status_key": "moving",
       "status_label": "en movimiento",
       "category": "alimentos",
-      "current": 7.098,
+      "current": 7.065,
       "unit": "$/bushel",
       "frequency": "daily",
-      "observed_at": "2026-09-23",
+      "observed_at": "2026-09-24",
       "freshness_days": 0,
       "baseline_value": 5.912,
       "baseline_observed_at": "2026-02-27",
-      "change_from_baseline_pct": 20.04,
-      "score": 57.84,
+      "change_from_baseline_pct": 19.49,
+      "score": 56.81,
       "weight": 0.1,
       "range_5y": {
         "min": 4.95,
@@ -1385,7 +1385,7 @@
       },
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZW%3DF?period1=1569196800&period2=1790208000&interval=1d&includePrePost=false&events=div,splits",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZW%3DF?period1=1569283200&period2=1790294400&interval=1d&includePrePost=false&events=div,splits",
         "tier": "primary",
         "cached_at": null
       },
@@ -1394,7 +1394,6 @@
       "transmission_window": "6-12 meses al pan (pico medido: ~11 meses)",
       "note": "Proxy diario via futuros SRW de Chicago. Se convierte de cents/bushel a $/bushel. | Proxy diario via futuros SRW de Chicago.",
       "sparkline": [
-        6.527,
         6.527,
         6.747,
         6.747,
@@ -1423,14 +1422,15 @@
         7.143,
         7.268,
         7.173,
-        7.098
+        7.085,
+        7.065
       ],
       "contrato": {
         "nombre": "Dic 26",
         "simbolo": "ZWZ26.CBT",
-        "comprobado": "2026-09-23",
+        "comprobado": "2026-09-24",
         "salto": {
-          "desde": "2026-09-22",
+          "desde": "2026-09-23",
           "precio": 0.0,
           "puntos": 0.0,
           "indice": 0.0
@@ -1445,15 +1445,15 @@
       "status_key": "moving",
       "status_label": "en movimiento",
       "category": "energia",
-      "current": 73.34,
+      "current": 72.01,
       "unit": "EUR/MWh",
       "frequency": "daily",
-      "observed_at": "2026-09-22",
+      "observed_at": "2026-09-23",
       "freshness_days": 1,
       "baseline_value": 31.959,
       "baseline_observed_at": "2026-02-27",
-      "change_from_baseline_pct": 129.48,
-      "score": 48.95,
+      "change_from_baseline_pct": 125.32,
+      "score": 47.47,
       "weight": 0.075,
       "range_5y": {
         "min": 22.934,
@@ -1463,7 +1463,7 @@
       },
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://query1.finance.yahoo.com/v8/finance/chart/TTF%3DF?period1=1569196800&period2=1790208000&interval=1d&includePrePost=false&events=div,splits",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/TTF%3DF?period1=1569283200&period2=1790294400&interval=1d&includePrePost=false&events=div,splits",
         "tier": "primary",
         "cached_at": null
       },
@@ -1472,7 +1472,6 @@
       "transmission_window": "mismo mes a la factura de luz/gas; 6-12 meses a alimentos",
       "note": "Proxy diario via futuros Dutch TTF ICE. Benchmark europeo de gas natural. | Serie diaria desde Yahoo Finance.",
       "sparkline": [
-        58.735,
         61.021,
         60.4,
         61.424,
@@ -1501,14 +1500,15 @@
         76.352,
         79.518,
         73.253,
-        73.34
+        73.34,
+        72.01
       ],
       "contrato": {
         "nombre": "Oct 26",
         "simbolo": "TTFV26.NYM",
-        "comprobado": "2026-09-22",
+        "comprobado": "2026-09-23",
         "salto": {
-          "desde": "2026-09-21",
+          "desde": "2026-09-22",
           "precio": 0.0,
           "puntos": 0.0,
           "indice": 0.0
@@ -1523,15 +1523,15 @@
       "status_key": "moving",
       "status_label": "en movimiento",
       "category": "alimentos",
-      "current": 5.327,
+      "current": 5.293,
       "unit": "$/bushel",
       "frequency": "daily",
-      "observed_at": "2026-09-23",
+      "observed_at": "2026-09-24",
       "freshness_days": 0,
       "baseline_value": 4.388,
       "baseline_observed_at": "2026-02-27",
-      "change_from_baseline_pct": 21.42,
-      "score": 44.37,
+      "change_from_baseline_pct": 20.63,
+      "score": 43.07,
       "weight": 0.075,
       "range_5y": {
         "min": 3.62,
@@ -1541,7 +1541,7 @@
       },
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZC%3DF?period1=1569196800&period2=1790208000&interval=1d&includePrePost=false&events=div,splits",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZC%3DF?period1=1569283200&period2=1790294400&interval=1d&includePrePost=false&events=div,splits",
         "tier": "primary",
         "cached_at": null
       },
@@ -1550,7 +1550,6 @@
       "transmission_window": "6-12+ meses a carne y lacteos",
       "note": "Proxy diario via futuros de maiz CBOT. Se convierte de cents/bushel a $/bushel. | Proxy diario via futuros de maiz CBOT.",
       "sparkline": [
-        4.57,
         4.48,
         4.59,
         4.65,
@@ -1579,14 +1578,15 @@
         5.275,
         5.43,
         5.367,
-        5.327
+        5.29,
+        5.293
       ],
       "contrato": {
         "nombre": "Dic 26",
         "simbolo": "ZCZ26.CBT",
-        "comprobado": "2026-09-23",
+        "comprobado": "2026-09-24",
         "salto": {
-          "desde": "2026-09-22",
+          "desde": "2026-09-23",
           "precio": 0.0,
           "puntos": 0.0,
           "indice": 0.0
@@ -1601,15 +1601,15 @@
       "status_key": "low",
       "status_label": "sin presion",
       "category": "alimentos",
-      "current": 17.59,
+      "current": 17.75,
       "unit": "cents/lb",
       "frequency": "daily",
-      "observed_at": "2026-09-22",
+      "observed_at": "2026-09-23",
       "freshness_days": 1,
       "baseline_value": 14.3,
       "baseline_observed_at": "2026-02-27",
-      "change_from_baseline_pct": 23.01,
-      "score": 27.93,
+      "change_from_baseline_pct": 24.13,
+      "score": 29.63,
       "weight": 0.05,
       "range_5y": {
         "min": 13.31,
@@ -1619,7 +1619,7 @@
       },
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://query1.finance.yahoo.com/v8/finance/chart/SB%3DF?period1=1569196800&period2=1790208000&interval=1d&includePrePost=false&events=div,splits",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/SB%3DF?period1=1569283200&period2=1790294400&interval=1d&includePrePost=false&events=div,splits",
         "tier": "primary",
         "cached_at": null
       },
@@ -1628,7 +1628,6 @@
       "transmission_window": "6-12 meses a procesados (senal debil)",
       "note": "Proxy diario via futuros ICE No. 11. | Proxy diario via futuros ICE No. 11.",
       "sparkline": [
-        16.73,
         16.42,
         16.82,
         16.6,
@@ -1657,14 +1656,15 @@
         17.42,
         17.36,
         17.48,
-        17.59
+        17.59,
+        17.75
       ],
       "contrato": {
         "nombre": "Oct 26",
         "simbolo": "SBV26.NYB",
-        "comprobado": "2026-09-22",
+        "comprobado": "2026-09-23",
         "salto": {
-          "desde": "2026-09-21",
+          "desde": "2026-09-22",
           "precio": 0.0,
           "puntos": 0.0,
           "indice": 0.0
@@ -1679,15 +1679,15 @@
       "status_key": "low",
       "status_label": "sin presion",
       "category": "divisa",
-      "current": 1.146,
+      "current": 1.141,
       "unit": "USD por EUR",
       "frequency": "daily",
-      "observed_at": "2026-09-22",
+      "observed_at": "2026-09-23",
       "freshness_days": 1,
       "baseline_value": 1.18,
       "baseline_observed_at": "2026-02-27",
-      "change_from_baseline_pct": -2.9,
-      "score": 20.2,
+      "change_from_baseline_pct": -3.34,
+      "score": 24.09,
       "weight": 0.075,
       "range_5y": {
         "min": 0.956,
@@ -1697,7 +1697,7 @@
       },
       "source": {
         "name": "Frankfurter",
-        "url": "https://api.frankfurter.dev/v1/2019-09-23..2026-09-23?base=USD&symbols=EUR",
+        "url": "https://api.frankfurter.dev/v1/2019-09-24..2026-09-24?base=USD&symbols=EUR",
         "tier": "primary",
         "cached_at": null
       },
@@ -1706,7 +1706,6 @@
       "transmission_window": "inmediato (amplifica al resto, no predice por si solo)",
       "note": "Frankfurter devuelve EUR por USD con base=USD. El motor lo convierte a USD por EUR antes de puntuar. | Tipo de cambio BCE via Frankfurter. Convertido de EUR por USD a USD por EUR.",
       "sparkline": [
-        1.154,
         1.153,
         1.157,
         1.159,
@@ -1735,7 +1734,8 @@
         1.148,
         1.146,
         1.149,
-        1.146
+        1.146,
+        1.141
       ]
     }
   ],
@@ -1795,8 +1795,8 @@
     "state": null,
     "delta_points": null,
     "window_days": 90,
-    "days_have": 60,
-    "note": "La direccion de fondo necesita 90 dias de serie del motor actual; llevamos 60. Mientras tanto, el nivel manda y la tendencia semanal orienta."
+    "days_have": 61,
+    "note": "La direccion de fondo necesita 90 dias de serie del motor actual; llevamos 61. Mientras tanto, el nivel manda y la tendencia semanal orienta."
   },
-  "history_days": 1748
+  "history_days": 1749
 }
