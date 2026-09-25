@@ -1,7 +1,7 @@
 # Katastrofik
 
-# 77.80  ·  CRISIS
-### 24 de septiembre de 2026
+# 79.56  ·  CRISIS
+### 25 de septiembre de 2026
 
 Índice de tensión de la cesta de la compra española. De 0 a 100.
 Cada mañana se publica aquí la lectura del día.

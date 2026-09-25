@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated": "2026-09-24T06:09:07Z",
+  "updated": "2026-09-25T06:09:35Z",
   "project_born": "2026-04-02",
   "live_from": "2026-07-02",
   "dates": [
@@ -167,15 +167,9 @@
     16.18,
     75.06,
     69.41,
-    77.8
+    79.56
   ],
   "daily_recent": [
-    {
-      "date": "2026-07-24",
-      "index": 80.22,
-      "level": "critico",
-      "engine": "3.0.0"
-    },
     {
       "date": "2026-07-27",
       "index": 78.42,
@@ -437,6 +431,12 @@
     {
       "date": "2026-09-24",
       "index": 77.8,
+      "level": "critico",
+      "engine": "3.0.0"
+    },
+    {
+      "date": "2026-09-25",
+      "index": 79.56,
       "level": "critico",
       "engine": "3.0.0"
     }
