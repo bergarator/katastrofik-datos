@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated": "2026-09-30T06:09:19Z",
+  "updated": "2026-10-01T06:09:11Z",
   "project_born": "2026-04-02",
   "live_from": "2026-07-02",
   "dates": [
@@ -84,7 +84,8 @@
     "2026-06",
     "2026-07",
     "2026-08",
-    "2026-09"
+    "2026-09",
+    "2026-10"
   ],
   "signal": [
     9.54,
@@ -167,15 +168,10 @@
     16.18,
     75.06,
     69.41,
-    81.08
+    81.08,
+    79.22
   ],
   "daily_recent": [
-    {
-      "date": "2026-07-30",
-      "index": 76.67,
-      "level": "critico",
-      "engine": "3.0.0"
-    },
     {
       "date": "2026-07-31",
       "index": 75.06,
@@ -439,6 +435,12 @@
       "index": 81.08,
       "level": "critico",
       "engine": "3.0.0"
+    },
+    {
+      "date": "2026-10-01",
+      "index": 79.22,
+      "level": "critico",
+      "engine": "3.0.0"
     }
   ],
   "events": [
@@ -463,7 +465,7 @@
       "label": "Cierre del estrecho de Ormuz"
     },
     {
-      "date": "2026-09",
+      "date": "2026-10",
       "label": "Situacion actual"
     }
   ],
