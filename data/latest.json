@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T06:08:18Z",
+  "updated": "2026-10-03T06:08:01Z",
   "engine_version": "3.0.0",
   "metric": {
     "name": "Katastrofik",
@@ -19,7 +19,7 @@
     "anomaly_pp": -15.98,
     "modifier_points": 8.0,
     "observed_at": "2026-09-30",
-    "freshness_days": 2,
+    "freshness_days": 3,
     "note": "Los almacenes de gas europeos estan al 71.5%, 16.0 puntos por DEBAJO de lo normal para esta epoca. Sin colchon, el shock se traslada antes (suma 8.0 puntos al indice).",
     "source": {
       "name": "GIE AGSI+",
@@ -439,7 +439,7 @@
       "unit": "$/barril",
       "frequency": "daily",
       "observed_at": "2026-10-02",
-      "freshness_days": 0,
+      "freshness_days": 1,
       "baseline_value": 72.48,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": 40.84,
@@ -516,7 +516,7 @@
       "unit": "EUR/MWh",
       "frequency": "daily",
       "observed_at": "2026-10-01",
-      "freshness_days": 1,
+      "freshness_days": 2,
       "baseline_value": 31.959,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": 131.35,
@@ -593,7 +593,7 @@
       "unit": "$/bushel",
       "frequency": "daily",
       "observed_at": "2026-10-02",
-      "freshness_days": 0,
+      "freshness_days": 1,
       "baseline_value": 5.912,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": 14.97,
@@ -670,7 +670,7 @@
       "unit": "$/bushel",
       "frequency": "daily",
       "observed_at": "2026-10-02",
-      "freshness_days": 0,
+      "freshness_days": 1,
       "baseline_value": 4.388,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": 13.79,
@@ -747,7 +747,7 @@
       "unit": "cents/lb",
       "frequency": "daily",
       "observed_at": "2026-10-01",
-      "freshness_days": 1,
+      "freshness_days": 2,
       "baseline_value": 14.3,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": 32.45,
@@ -824,7 +824,7 @@
       "unit": "USD por EUR",
       "frequency": "daily",
       "observed_at": "2026-10-01",
-      "freshness_days": 1,
+      "freshness_days": 2,
       "baseline_value": 1.18,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": -4.29,
@@ -890,7 +890,7 @@
       "unit": "buques/dia (media 7d)",
       "frequency": "daily",
       "observed_at": "2026-09-27",
-      "freshness_days": 5,
+      "freshness_days": 6,
       "baseline_value": 92.857,
       "baseline_observed_at": "2026-02-28",
       "change_from_baseline_pct": -96.62,
@@ -956,7 +956,7 @@
       "unit": "indice GPR",
       "frequency": "daily",
       "observed_at": "2026-10-01",
-      "freshness_days": 1,
+      "freshness_days": 2,
       "baseline_value": 144.613,
       "baseline_observed_at": "2026-02-28",
       "change_from_baseline_pct": 25.61,
@@ -1022,7 +1022,7 @@
       "unit": "puntos",
       "frequency": "daily",
       "observed_at": "2026-10-01",
-      "freshness_days": 1,
+      "freshness_days": 2,
       "baseline_value": 64.68,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": -20.08,
@@ -1795,5 +1795,14 @@
     "days_have": 67,
     "note": "La direccion de fondo necesita 90 dias de serie del motor actual; llevamos 67. Mientras tanto, el nivel manda y la tendencia semanal orienta."
   },
-  "history_days": 1755
+  "history_days": 1755,
+  "sealed_reading": {
+    "date": "2026-10-02",
+    "published": "2026-10-02T06:08:18Z",
+    "reason": "weekend",
+    "check": {
+      "recalculated_index": 82.16,
+      "warnings": []
+    }
+  }
 }
