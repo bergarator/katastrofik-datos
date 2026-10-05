@@ -1,56 +1,56 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-10-04",
+ "fecha": "2026-10-05",
  "motor": "3.0.0",
- "indice": 81.43,
+ "indice": 82.05,
  "nivel": "crisis",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 73.43,
+ "sin_ajuste_del_gas": 74.05,
  "ajuste_del_gas": 8.0,
- "reservas_gas_ue_pct": 71.5,
- "reservas_normales_del_mes_pct": 87.48,
+ "reservas_gas_ue_pct": 72.4,
+ "reservas_normales_del_mes_pct": 90.99,
  "sensores": {
   "brent": {
    "nombre": "Petroleo Brent",
-   "puntuacion": 98.88,
-   "valor": 102.08,
+   "puntuacion": 97.24,
+   "valor": 101.49,
    "unidad": "$/barril",
-   "observado": "2026-10-02"
+   "observado": "2026-10-05"
   },
   "natural_gas": {
    "nombre": "Gas natural",
-   "puntuacion": 49.62,
-   "valor": 73.938,
+   "puntuacion": 50.53,
+   "valor": 74.76,
    "unidad": "EUR/MWh",
-   "observado": "2026-10-01"
+   "observado": "2026-10-02"
   },
   "wheat": {
    "nombre": "Trigo",
-   "puntuacion": 48.34,
-   "valor": 6.798,
+   "puntuacion": 51.27,
+   "valor": 6.89,
    "unidad": "$/bushel",
-   "observado": "2026-10-02"
+   "observado": "2026-10-05"
   },
   "corn": {
    "nombre": "Maiz",
-   "puntuacion": 31.99,
-   "valor": 4.992,
+   "puntuacion": 31.07,
+   "valor": 4.968,
    "unidad": "$/bushel",
-   "observado": "2026-10-02"
+   "observado": "2026-10-05"
   },
   "sugar": {
    "nombre": "Azucar",
-   "puntuacion": 42.27,
-   "valor": 18.94,
+   "puntuacion": 52.78,
+   "valor": 19.93,
    "unidad": "cents/lb",
-   "observado": "2026-10-01"
+   "observado": "2026-10-02"
   },
   "eur_usd": {
    "nombre": "Euro vs dolar",
-   "puntuacion": 32.51,
-   "valor": 1.13,
+   "puntuacion": 37.95,
+   "valor": 1.122,
    "unidad": "USD por EUR",
-   "observado": "2026-10-01"
+   "observado": "2026-10-02"
   },
   "hormuz": {
    "nombre": "Trafico por Ormuz",
@@ -68,10 +68,10 @@
   },
   "ovx": {
    "nombre": "Volatilidad del crudo",
-   "puntuacion": 86.22,
-   "valor": 51.69,
+   "puntuacion": 83.55,
+   "valor": 51.0,
    "unidad": "puntos",
-   "observado": "2026-10-01"
+   "observado": "2026-10-02"
   }
  }
 }
