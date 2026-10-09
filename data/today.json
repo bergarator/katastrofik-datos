@@ -1,56 +1,56 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-10-08",
+ "fecha": "2026-10-09",
  "motor": "3.0.0",
- "indice": 81.48,
+ "indice": 81.09,
  "nivel": "crisis",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 73.48,
+ "sin_ajuste_del_gas": 73.09,
  "ajuste_del_gas": 8.0,
- "reservas_gas_ue_pct": 72.97,
+ "reservas_gas_ue_pct": 73.12,
  "reservas_normales_del_mes_pct": 90.99,
  "sensores": {
   "brent": {
    "nombre": "Petroleo Brent",
    "puntuacion": 100.0,
-   "valor": 102.75,
+   "valor": 102.85,
    "unidad": "$/barril",
-   "observado": "2026-10-08"
+   "observado": "2026-10-09"
   },
   "natural_gas": {
    "nombre": "Gas natural",
-   "puntuacion": 54.23,
-   "valor": 78.08,
+   "puntuacion": 55.09,
+   "valor": 78.849,
    "unidad": "EUR/MWh",
-   "observado": "2026-10-07"
+   "observado": "2026-10-08"
   },
   "wheat": {
    "nombre": "Trigo",
-   "puntuacion": 49.92,
-   "valor": 6.848,
+   "puntuacion": 50.16,
+   "valor": 6.855,
    "unidad": "$/bushel",
-   "observado": "2026-10-08"
+   "observado": "2026-10-09"
   },
   "corn": {
    "nombre": "Maiz",
-   "puntuacion": 32.64,
-   "valor": 5.01,
+   "puntuacion": 33.38,
+   "valor": 5.03,
    "unidad": "$/bushel",
-   "observado": "2026-10-08"
+   "observado": "2026-10-09"
   },
   "sugar": {
    "nombre": "Azucar",
-   "puntuacion": 62.34,
-   "valor": 20.83,
+   "puntuacion": 55.12,
+   "valor": 20.15,
    "unidad": "cents/lb",
-   "observado": "2026-10-07"
+   "observado": "2026-10-08"
   },
   "eur_usd": {
    "nombre": "Euro vs dolar",
-   "puntuacion": 41.53,
-   "valor": 1.118,
+   "puntuacion": 40.86,
+   "valor": 1.119,
    "unidad": "USD por EUR",
-   "observado": "2026-10-07"
+   "observado": "2026-10-08"
   },
   "hormuz": {
    "nombre": "Trafico por Ormuz",
@@ -68,10 +68,10 @@
   },
   "ovx": {
    "nombre": "Volatilidad del crudo",
-   "puntuacion": 74.32,
-   "valor": 48.61,
+   "puntuacion": 73.5,
+   "valor": 48.4,
    "unidad": "puntos",
-   "observado": "2026-10-07"
+   "observado": "2026-10-08"
   }
  }
 }
