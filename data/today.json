@@ -1,21 +1,21 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-10-15",
+ "fecha": "2026-10-16",
  "motor": "3.0.0",
- "indice": 82.22,
+ "indice": 82.5,
  "nivel": "crisis",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 74.22,
+ "sin_ajuste_del_gas": 74.5,
  "ajuste_del_gas": 8.0,
- "reservas_gas_ue_pct": 74.02,
+ "reservas_gas_ue_pct": 74.1,
  "reservas_normales_del_mes_pct": 90.99,
  "sensores": {
   "brent": {
    "nombre": "Petroleo Brent",
    "puntuacion": 100.0,
-   "valor": 104.38,
+   "valor": 105.12,
    "unidad": "$/barril",
-   "observado": "2026-10-15"
+   "observado": "2026-10-16"
   },
   "natural_gas": {
    "nombre": "Gas natural",
@@ -26,31 +26,31 @@
   },
   "wheat": {
    "nombre": "Trigo",
-   "puntuacion": 44.77,
-   "valor": 6.685,
+   "puntuacion": 44.14,
+   "valor": 6.665,
    "unidad": "$/bushel",
-   "observado": "2026-10-15"
+   "observado": "2026-10-16"
   },
   "corn": {
    "nombre": "Maiz",
-   "puntuacion": 24.6,
-   "valor": 4.793,
+   "puntuacion": 24.14,
+   "valor": 4.78,
    "unidad": "$/bushel",
-   "observado": "2026-10-15"
+   "observado": "2026-10-16"
   },
   "sugar": {
    "nombre": "Azucar",
-   "puntuacion": 62.45,
-   "valor": 20.84,
+   "puntuacion": 65.53,
+   "valor": 21.13,
    "unidad": "cents/lb",
-   "observado": "2026-10-14"
+   "observado": "2026-10-15"
   },
   "eur_usd": {
    "nombre": "Euro vs dolar",
-   "puntuacion": 40.19,
-   "valor": 1.119,
+   "puntuacion": 39.22,
+   "valor": 1.121,
    "unidad": "USD por EUR",
-   "observado": "2026-10-14"
+   "observado": "2026-10-15"
   },
   "hormuz": {
    "nombre": "Trafico por Ormuz",
@@ -68,10 +68,10 @@
   },
   "ovx": {
    "nombre": "Volatilidad del crudo",
-   "puntuacion": 74.35,
-   "valor": 48.62,
+   "puntuacion": 76.33,
+   "valor": 49.13,
    "unidad": "puntos",
-   "observado": "2026-10-14"
+   "observado": "2026-10-15"
   }
  }
 }
