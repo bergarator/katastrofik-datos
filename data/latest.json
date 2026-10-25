@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T06:08:56Z",
+  "updated": "2026-10-25T06:09:23Z",
   "engine_version": "3.0.0",
   "metric": {
     "name": "Katastrofik",
@@ -19,7 +19,7 @@
     "anomaly_pp": -16.37,
     "modifier_points": 8.0,
     "observed_at": "2026-10-21",
-    "freshness_days": 3,
+    "freshness_days": 4,
     "note": "Los almacenes de gas europeos estan al 74.6%, 16.4 puntos por DEBAJO de lo normal para esta epoca. Sin colchon, el shock se traslada antes (suma 8.0 puntos al indice).",
     "source": {
       "name": "GIE AGSI+",
@@ -439,7 +439,7 @@
       "unit": "$/barril",
       "frequency": "daily",
       "observed_at": "2026-10-23",
-      "freshness_days": 1,
+      "freshness_days": 2,
       "baseline_value": 72.48,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": 57.77,
@@ -516,7 +516,7 @@
       "unit": "EUR/MWh",
       "frequency": "daily",
       "observed_at": "2026-10-22",
-      "freshness_days": 2,
+      "freshness_days": 3,
       "baseline_value": 31.959,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": 181.75,
@@ -593,7 +593,7 @@
       "unit": "$/bushel",
       "frequency": "daily",
       "observed_at": "2026-10-23",
-      "freshness_days": 1,
+      "freshness_days": 2,
       "baseline_value": 5.912,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": 6.13,
@@ -670,7 +670,7 @@
       "unit": "$/bushel",
       "frequency": "daily",
       "observed_at": "2026-10-23",
-      "freshness_days": 1,
+      "freshness_days": 2,
       "baseline_value": 4.388,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": 4.9,
@@ -747,7 +747,7 @@
       "unit": "cents/lb",
       "frequency": "daily",
       "observed_at": "2026-10-22",
-      "freshness_days": 2,
+      "freshness_days": 3,
       "baseline_value": 14.3,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": 40.77,
@@ -824,7 +824,7 @@
       "unit": "USD por EUR",
       "frequency": "daily",
       "observed_at": "2026-10-22",
-      "freshness_days": 2,
+      "freshness_days": 3,
       "baseline_value": 1.18,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": -5.08,
@@ -890,7 +890,7 @@
       "unit": "buques/dia (media 7d)",
       "frequency": "daily",
       "observed_at": "2026-10-18",
-      "freshness_days": 6,
+      "freshness_days": 7,
       "baseline_value": 92.857,
       "baseline_observed_at": "2026-02-28",
       "change_from_baseline_pct": -96.0,
@@ -956,7 +956,7 @@
       "unit": "indice GPR",
       "frequency": "daily",
       "observed_at": "2026-10-19",
-      "freshness_days": 5,
+      "freshness_days": 6,
       "baseline_value": 144.613,
       "baseline_observed_at": "2026-02-28",
       "change_from_baseline_pct": 23.03,
@@ -1022,7 +1022,7 @@
       "unit": "puntos",
       "frequency": "daily",
       "observed_at": "2026-10-22",
-      "freshness_days": 2,
+      "freshness_days": 3,
       "baseline_value": 64.68,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": -13.98,
@@ -1802,7 +1802,9 @@
     "reason": "weekend",
     "check": {
       "recalculated_index": 83.16,
-      "warnings": []
+      "warnings": [
+        "gas_storage_eu: la fuente principal (GIE AGSI+) fallo y se sirvio desde cache local (hidratado 2026-10-24T06:08:49Z). Motivo: HTTPSConnectionPool(host='agsi.gie.eu', port=443): Read timed out. (read timeout=30)"
+      ]
     }
   }
 }
