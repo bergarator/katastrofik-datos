@@ -1,6 +1,6 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-10-25",
+ "fecha": "2026-10-26",
  "motor": "3.0.0",
  "indice": 82.91,
  "nivel": "crisis",
@@ -13,44 +13,44 @@
   "brent": {
    "nombre": "Petroleo Brent",
    "puntuacion": 100.0,
-   "valor": 114.35,
+   "valor": 109.51,
    "unidad": "$/barril",
-   "observado": "2026-10-23"
+   "observado": "2026-10-26"
   },
   "natural_gas": {
    "nombre": "Gas natural",
-   "puntuacion": 67.56,
-   "valor": 90.043,
+   "puntuacion": 71.8,
+   "valor": 93.853,
    "unidad": "EUR/MWh",
-   "observado": "2026-10-22"
+   "observado": "2026-10-23"
   },
   "wheat": {
    "nombre": "Trigo",
-   "puntuacion": 31.79,
-   "valor": 6.275,
+   "puntuacion": 29.89,
+   "valor": 6.215,
    "unidad": "$/bushel",
-   "observado": "2026-10-23"
+   "observado": "2026-10-26"
   },
   "corn": {
    "nombre": "Maiz",
-   "puntuacion": 17.58,
-   "valor": 4.603,
+   "puntuacion": 14.17,
+   "valor": 4.51,
    "unidad": "$/bushel",
-   "observado": "2026-10-23"
+   "observado": "2026-10-26"
   },
   "sugar": {
    "nombre": "Azucar",
-   "puntuacion": 54.91,
-   "valor": 20.13,
+   "puntuacion": 56.07,
+   "valor": 20.24,
    "unidad": "cents/lb",
-   "observado": "2026-10-22"
+   "observado": "2026-10-23"
   },
   "eur_usd": {
    "nombre": "Euro vs dolar",
-   "puntuacion": 39.45,
-   "valor": 1.12,
+   "puntuacion": 40.34,
+   "valor": 1.119,
    "unidad": "USD por EUR",
-   "observado": "2026-10-22"
+   "observado": "2026-10-23"
   },
   "hormuz": {
    "nombre": "Trafico por Ormuz",
@@ -69,9 +69,9 @@
   "ovx": {
    "nombre": "Volatilidad del crudo",
    "puntuacion": 100.0,
-   "valor": 55.64,
+   "valor": 60.02,
    "unidad": "puntos",
-   "observado": "2026-10-22"
+   "observado": "2026-10-23"
   }
  }
 }
