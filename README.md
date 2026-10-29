@@ -1,13 +1,11 @@
 # Katastrofik
 
-# 82.88  ·  CRISIS
-### 28 de octubre de 2026
+# 83.16  ·  CRISIS
+### 29 de octubre de 2026
 
 Katastrofik es un índice diario, de 0 a 100, de la tensión mundial (energía,
 alimentos, transporte, geopolítica) que acaba llegando a los precios en España.
 Cada mañana se publica aquí la lectura del día.
-
-Hoy pesa sobre todo el gas: las reservas de Europa están muy bajas para la época.
 
 **calma** 0-25 · **atención** 25-50 · **alerta** 50-75 · **crisis** más de 75
 
