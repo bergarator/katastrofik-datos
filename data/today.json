@@ -1,56 +1,56 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-11-01",
+ "fecha": "2026-11-02",
  "motor": "3.0.0",
- "indice": 83.19,
+ "indice": 83.21,
  "nivel": "crisis",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 75.19,
+ "sin_ajuste_del_gas": 75.21,
  "ajuste_del_gas": 8.0,
- "reservas_gas_ue_pct": 74.89,
+ "reservas_gas_ue_pct": 74.62,
  "reservas_normales_del_mes_pct": 90.99,
  "sensores": {
   "brent": {
    "nombre": "Petroleo Brent",
    "puntuacion": 100.0,
-   "valor": 112.3,
+   "valor": 109.82,
    "unidad": "$/barril",
-   "observado": "2026-10-30"
+   "observado": "2026-11-02"
   },
   "natural_gas": {
    "nombre": "Gas natural",
-   "puntuacion": 77.07,
-   "valor": 98.588,
+   "puntuacion": 83.04,
+   "valor": 103.944,
    "unidad": "EUR/MWh",
-   "observado": "2026-10-29"
+   "observado": "2026-10-30"
   },
   "wheat": {
    "nombre": "Trigo",
-   "puntuacion": 24.9,
-   "valor": 6.058,
+   "puntuacion": 23.87,
+   "valor": 6.025,
    "unidad": "$/bushel",
-   "observado": "2026-10-30"
+   "observado": "2026-11-02"
   },
   "corn": {
    "nombre": "Maiz",
-   "puntuacion": 13.89,
-   "valor": 4.503,
+   "puntuacion": 13.43,
+   "valor": 4.49,
    "unidad": "$/bushel",
-   "observado": "2026-10-30"
+   "observado": "2026-11-02"
   },
   "sugar": {
    "nombre": "Azucar",
-   "puntuacion": 47.9,
-   "valor": 19.47,
+   "puntuacion": 46.73,
+   "valor": 19.36,
    "unidad": "cents/lb",
-   "observado": "2026-10-29"
+   "observado": "2026-10-30"
   },
   "eur_usd": {
    "nombre": "Euro vs dolar",
-   "puntuacion": 45.04,
-   "valor": 1.113,
+   "puntuacion": 41.9,
+   "valor": 1.117,
    "unidad": "USD por EUR",
-   "observado": "2026-10-29"
+   "observado": "2026-10-30"
   },
   "hormuz": {
    "nombre": "Trafico por Ormuz",
@@ -69,9 +69,9 @@
   "ovx": {
    "nombre": "Volatilidad del crudo",
    "puntuacion": 100.0,
-   "valor": 57.16,
+   "valor": 58.48,
    "unidad": "puntos",
-   "observado": "2026-10-29"
+   "observado": "2026-10-30"
   }
  }
 }
