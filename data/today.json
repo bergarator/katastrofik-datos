@@ -1,56 +1,56 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-11-04",
+ "fecha": "2026-11-05",
  "motor": "3.0.0",
- "indice": 75.37,
- "nivel": "crisis",
+ "indice": 72.25,
+ "nivel": "alerta",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 67.37,
+ "sin_ajuste_del_gas": 64.25,
  "ajuste_del_gas": 8.0,
- "reservas_gas_ue_pct": 74.33,
+ "reservas_gas_ue_pct": 74.07,
  "reservas_normales_del_mes_pct": 89.6,
  "sensores": {
   "brent": {
    "nombre": "Petroleo Brent",
-   "puntuacion": 100.0,
-   "valor": 103.6,
+   "puntuacion": 77.85,
+   "valor": 94.5,
    "unidad": "$/barril",
-   "observado": "2026-11-04"
+   "observado": "2026-11-05"
   },
   "natural_gas": {
    "nombre": "Gas natural",
-   "puntuacion": 69.29,
-   "valor": 91.602,
+   "puntuacion": 65.37,
+   "valor": 88.082,
    "unidad": "EUR/MWh",
-   "observado": "2026-11-03"
+   "observado": "2026-11-04"
   },
   "wheat": {
    "nombre": "Trigo",
-   "puntuacion": 21.65,
-   "valor": 5.955,
+   "puntuacion": 23.55,
+   "valor": 6.015,
    "unidad": "$/bushel",
-   "observado": "2026-11-04"
+   "observado": "2026-11-05"
   },
   "corn": {
    "nombre": "Maiz",
-   "puntuacion": 10.1,
-   "valor": 4.4,
+   "puntuacion": 12.32,
+   "valor": 4.46,
    "unidad": "$/bushel",
-   "observado": "2026-11-04"
+   "observado": "2026-11-05"
   },
   "sugar": {
    "nombre": "Azucar",
-   "puntuacion": 35.79,
-   "valor": 18.33,
+   "puntuacion": 37.28,
+   "valor": 18.47,
    "unidad": "cents/lb",
-   "observado": "2026-11-03"
+   "observado": "2026-11-04"
   },
   "eur_usd": {
    "nombre": "Euro vs dolar",
-   "puntuacion": 41.38,
-   "valor": 1.118,
+   "puntuacion": 34.82,
+   "valor": 1.127,
    "unidad": "USD por EUR",
-   "observado": "2026-11-03"
+   "observado": "2026-11-04"
   },
   "hormuz": {
    "nombre": "Trafico por Ormuz",
@@ -69,9 +69,9 @@
   "ovx": {
    "nombre": "Volatilidad del crudo",
    "puntuacion": 100.0,
-   "valor": 61.69,
+   "valor": 58.81,
    "unidad": "puntos",
-   "observado": "2026-11-03"
+   "observado": "2026-11-04"
   }
  }
 }
