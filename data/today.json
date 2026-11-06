@@ -1,56 +1,56 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-11-05",
+ "fecha": "2026-11-06",
  "motor": "3.0.0",
- "indice": 72.25,
+ "indice": 74.21,
  "nivel": "alerta",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 64.25,
+ "sin_ajuste_del_gas": 66.21,
  "ajuste_del_gas": 8.0,
- "reservas_gas_ue_pct": 74.07,
+ "reservas_gas_ue_pct": 73.75,
  "reservas_normales_del_mes_pct": 89.6,
  "sensores": {
   "brent": {
    "nombre": "Petroleo Brent",
-   "puntuacion": 77.85,
-   "valor": 94.5,
+   "puntuacion": 92.5,
+   "valor": 99.78,
    "unidad": "$/barril",
-   "observado": "2026-11-05"
+   "observado": "2026-11-06"
   },
   "natural_gas": {
    "nombre": "Gas natural",
-   "puntuacion": 65.37,
-   "valor": 88.082,
+   "puntuacion": 67.11,
+   "valor": 89.64,
    "unidad": "EUR/MWh",
-   "observado": "2026-11-04"
+   "observado": "2026-11-05"
   },
   "wheat": {
    "nombre": "Trigo",
-   "puntuacion": 23.55,
-   "valor": 6.015,
+   "puntuacion": 21.97,
+   "valor": 5.965,
    "unidad": "$/bushel",
-   "observado": "2026-11-05"
+   "observado": "2026-11-06"
   },
   "corn": {
    "nombre": "Maiz",
-   "puntuacion": 12.32,
-   "valor": 4.46,
+   "puntuacion": 10.57,
+   "valor": 4.412,
    "unidad": "$/bushel",
-   "observado": "2026-11-05"
+   "observado": "2026-11-06"
   },
   "sugar": {
    "nombre": "Azucar",
-   "puntuacion": 37.28,
-   "valor": 18.47,
+   "puntuacion": 38.23,
+   "valor": 18.56,
    "unidad": "cents/lb",
-   "observado": "2026-11-04"
+   "observado": "2026-11-05"
   },
   "eur_usd": {
    "nombre": "Euro vs dolar",
-   "puntuacion": 34.82,
-   "valor": 1.127,
+   "puntuacion": 38.03,
+   "valor": 1.122,
    "unidad": "USD por EUR",
-   "observado": "2026-11-04"
+   "observado": "2026-11-05"
   },
   "hormuz": {
    "nombre": "Trafico por Ormuz",
@@ -69,9 +69,9 @@
   "ovx": {
    "nombre": "Volatilidad del crudo",
    "puntuacion": 100.0,
-   "valor": 58.81,
+   "valor": 60.29,
    "unidad": "puntos",
-   "observado": "2026-11-04"
+   "observado": "2026-11-05"
   }
  }
 }
