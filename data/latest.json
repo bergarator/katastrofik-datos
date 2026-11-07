@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T06:10:15Z",
+  "updated": "2026-11-07T09:12:45Z",
   "engine_version": "3.0.0",
   "metric": {
     "name": "Katastrofik",
@@ -1798,8 +1798,7 @@
     "check": {
       "recalculated_index": 73.36,
       "warnings": [
-        "natural_gas: la lectura del 2026-11-05 no dice que contrato llevaba; no se puede separar mercado de cambio de contrato.",
-        "hormuz: la fuente principal (IMF PortWatch) fallo y se sirvio desde cache local (hidratado 2026-11-04T06:08:36Z). Motivo: PortWatch no contesto bien en 6 intentos: PortWatch devolvio error 429: Unable to perform query. Too many requests."
+        "natural_gas: la lectura del 2026-11-05 no dice que contrato llevaba; no se puede separar mercado de cambio de contrato."
       ]
     }
   }
