@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T06:10:39Z",
+  "updated": "2026-11-07T06:10:15Z",
   "engine_version": "3.0.0",
   "metric": {
     "name": "Katastrofik",
@@ -19,7 +19,7 @@
     "anomaly_pp": -15.85,
     "modifier_points": 8.0,
     "observed_at": "2026-11-04",
-    "freshness_days": 2,
+    "freshness_days": 3,
     "note": "Los almacenes de gas europeos estan al 73.8%, 15.8 puntos por DEBAJO de lo normal para esta epoca. Sin colchon, el shock se traslada antes (suma 8.0 puntos al indice).",
     "source": {
       "name": "GIE AGSI+",
@@ -439,7 +439,7 @@
       "unit": "$/barril",
       "frequency": "daily",
       "observed_at": "2026-11-06",
-      "freshness_days": 0,
+      "freshness_days": 1,
       "baseline_value": 72.48,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": 37.67,
@@ -516,7 +516,7 @@
       "unit": "EUR/MWh",
       "frequency": "daily",
       "observed_at": "2026-11-05",
-      "freshness_days": 1,
+      "freshness_days": 2,
       "baseline_value": 31.959,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": 180.48,
@@ -589,7 +589,7 @@
       "unit": "$/bushel",
       "frequency": "daily",
       "observed_at": "2026-11-06",
-      "freshness_days": 0,
+      "freshness_days": 1,
       "baseline_value": 5.912,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": 0.89,
@@ -666,7 +666,7 @@
       "unit": "$/bushel",
       "frequency": "daily",
       "observed_at": "2026-11-06",
-      "freshness_days": 0,
+      "freshness_days": 1,
       "baseline_value": 4.388,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": 0.57,
@@ -743,7 +743,7 @@
       "unit": "cents/lb",
       "frequency": "daily",
       "observed_at": "2026-11-05",
-      "freshness_days": 1,
+      "freshness_days": 2,
       "baseline_value": 14.3,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": 29.79,
@@ -820,7 +820,7 @@
       "unit": "USD por EUR",
       "frequency": "daily",
       "observed_at": "2026-11-05",
-      "freshness_days": 1,
+      "freshness_days": 2,
       "baseline_value": 1.18,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": -4.92,
@@ -886,7 +886,7 @@
       "unit": "buques/dia (media 7d)",
       "frequency": "daily",
       "observed_at": "2026-10-25",
-      "freshness_days": 12,
+      "freshness_days": 13,
       "baseline_value": 92.857,
       "baseline_observed_at": "2026-02-28",
       "change_from_baseline_pct": -96.46,
@@ -952,7 +952,7 @@
       "unit": "indice GPR",
       "frequency": "daily",
       "observed_at": "2026-11-02",
-      "freshness_days": 4,
+      "freshness_days": 5,
       "baseline_value": 144.613,
       "baseline_observed_at": "2026-02-28",
       "change_from_baseline_pct": -4.82,
@@ -1018,7 +1018,7 @@
       "unit": "puntos",
       "frequency": "daily",
       "observed_at": "2026-11-05",
-      "freshness_days": 1,
+      "freshness_days": 2,
       "baseline_value": 64.68,
       "baseline_observed_at": "2026-02-27",
       "change_from_baseline_pct": -6.79,
@@ -1790,5 +1790,17 @@
     "days_have": 92,
     "note": "En los ultimos 3 meses, la tension de fondo esta CRECIENDO (+20.0 puntos)."
   },
-  "history_days": 1780
+  "history_days": 1780,
+  "sealed_reading": {
+    "date": "2026-11-06",
+    "published": "2026-11-06T06:10:39Z",
+    "reason": "weekend",
+    "check": {
+      "recalculated_index": 73.36,
+      "warnings": [
+        "natural_gas: la lectura del 2026-11-05 no dice que contrato llevaba; no se puede separar mercado de cambio de contrato.",
+        "hormuz: la fuente principal (IMF PortWatch) fallo y se sirvio desde cache local (hidratado 2026-11-04T06:08:36Z). Motivo: PortWatch no contesto bien en 6 intentos: PortWatch devolvio error 429: Unable to perform query. Too many requests."
+      ]
+    }
+  }
 }
