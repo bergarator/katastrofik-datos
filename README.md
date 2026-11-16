@@ -1,7 +1,7 @@
 # Katastrofik
 
-# 73.74  ·  ALERTA
-### 15 de noviembre de 2026
+# 73.48  ·  ALERTA
+### 16 de noviembre de 2026
 
 Katastrofik es un índice diario, de 0 a 100, de la tensión mundial (energía,
 alimentos, transporte, geopolítica) que acaba llegando a los precios en España.

@@ -1,21 +1,21 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-11-15",
+ "fecha": "2026-11-16",
  "motor": "3.0.0",
- "indice": 73.74,
+ "indice": 73.48,
  "nivel": "alerta",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 65.74,
+ "sin_ajuste_del_gas": 65.48,
  "ajuste_del_gas": 8.0,
- "reservas_gas_ue_pct": 71.0,
+ "reservas_gas_ue_pct": 70.55,
  "reservas_normales_del_mes_pct": 89.6,
  "sensores": {
   "brent": {
    "nombre": "Petroleo Brent",
-   "puntuacion": 81.56,
-   "valor": 95.84,
+   "puntuacion": 81.34,
+   "valor": 95.76,
    "unidad": "$/barril",
-   "observado": "2026-11-13"
+   "observado": "2026-11-16"
   },
   "natural_gas": {
    "nombre": "Gas natural",
@@ -26,17 +26,17 @@
   },
   "wheat": {
    "nombre": "Trigo",
-   "puntuacion": 20.94,
-   "valor": 5.933,
+   "puntuacion": 18.88,
+   "valor": 5.867,
    "unidad": "$/bushel",
-   "observado": "2026-11-13"
+   "observado": "2026-11-16"
   },
   "corn": {
    "nombre": "Maiz",
-   "puntuacion": 12.14,
-   "valor": 4.455,
+   "puntuacion": 11.67,
+   "valor": 4.442,
    "unidad": "$/bushel",
-   "observado": "2026-11-13"
+   "observado": "2026-11-16"
   },
   "sugar": {
    "nombre": "Azucar",
