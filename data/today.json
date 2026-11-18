@@ -1,63 +1,63 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-11-17",
+ "fecha": "2026-11-18",
  "motor": "3.0.0",
- "indice": 69.97,
+ "indice": 70.75,
  "nivel": "alerta",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 61.97,
+ "sin_ajuste_del_gas": 62.75,
  "ajuste_del_gas": 8.0,
- "reservas_gas_ue_pct": 70.39,
+ "reservas_gas_ue_pct": 70.15,
  "reservas_normales_del_mes_pct": 89.6,
  "sensores": {
   "brent": {
    "nombre": "Petroleo Brent",
-   "puntuacion": 70.27,
-   "valor": 91.77,
+   "puntuacion": 72.07,
+   "valor": 92.42,
    "unidad": "$/barril",
-   "observado": "2026-11-17"
+   "observado": "2026-11-18"
   },
   "natural_gas": {
    "nombre": "Gas natural",
-   "puntuacion": 61.66,
-   "valor": 84.749,
+   "puntuacion": 63.5,
+   "valor": 86.4,
    "unidad": "EUR/MWh",
-   "observado": "2026-11-16"
+   "observado": "2026-11-18"
   },
   "wheat": {
    "nombre": "Trigo",
-   "puntuacion": 23.15,
-   "valor": 6.003,
+   "puntuacion": 24.74,
+   "valor": 6.053,
    "unidad": "$/bushel",
-   "observado": "2026-11-17"
+   "observado": "2026-11-18"
   },
   "corn": {
    "nombre": "Maiz",
-   "puntuacion": 13.43,
-   "valor": 4.49,
+   "puntuacion": 12.04,
+   "valor": 4.452,
    "unidad": "$/bushel",
-   "observado": "2026-11-17"
+   "observado": "2026-11-18"
   },
   "sugar": {
    "nombre": "Azucar",
-   "puntuacion": 33.35,
-   "valor": 18.1,
+   "puntuacion": 34.09,
+   "valor": 18.17,
    "unidad": "cents/lb",
-   "observado": "2026-11-16"
+   "observado": "2026-11-17"
   },
   "eur_usd": {
    "nombre": "Euro vs dolar",
-   "puntuacion": 53.69,
-   "valor": 1.101,
+   "puntuacion": 55.55,
+   "valor": 1.099,
    "unidad": "USD por EUR",
-   "observado": "2026-11-16"
+   "observado": "2026-11-17"
   },
   "hormuz": {
    "nombre": "Trafico por Ormuz",
    "puntuacion": 100.0,
-   "valor": 3.857,
+   "valor": 2.286,
    "unidad": "buques/dia (media 7d)",
-   "observado": "2026-11-08"
+   "observado": "2026-11-15"
   },
   "gpr": {
    "nombre": "Riesgo geopolitico",
@@ -68,10 +68,10 @@
   },
   "ovx": {
    "nombre": "Volatilidad del crudo",
-   "puntuacion": 78.1,
-   "valor": 49.59,
+   "puntuacion": 79.3,
+   "valor": 49.9,
    "unidad": "puntos",
-   "observado": "2026-11-16"
+   "observado": "2026-11-17"
   }
  }
 }
