@@ -1,28 +1,28 @@
 {
  "que_es": "La lectura de hoy del índice Katastrofik. De 0 a 100.",
- "fecha": "2026-11-26",
+ "fecha": "2026-11-27",
  "motor": "3.0.0",
- "indice": 70.57,
+ "indice": 70.93,
  "nivel": "alerta",
  "escala": "0-25 calma · 25-50 atención · 50-75 alerta · más de 75 crisis",
- "sin_ajuste_del_gas": 62.57,
+ "sin_ajuste_del_gas": 62.93,
  "ajuste_del_gas": 8.0,
- "reservas_gas_ue_pct": 67.84,
+ "reservas_gas_ue_pct": 67.2,
  "reservas_normales_del_mes_pct": 89.6,
  "sensores": {
   "brent": {
    "nombre": "Petroleo Brent",
-   "puntuacion": 68.69,
-   "valor": 91.2,
+   "puntuacion": 73.21,
+   "valor": 92.83,
    "unidad": "$/barril",
-   "observado": "2026-11-26"
+   "observado": "2026-11-27"
   },
   "natural_gas": {
    "nombre": "Gas natural",
-   "puntuacion": 64.51,
-   "valor": 87.303,
+   "puntuacion": 64.78,
+   "valor": 87.55,
    "unidad": "EUR/MWh",
-   "observado": "2026-11-25"
+   "observado": "2026-11-26"
   },
   "wheat": {
    "nombre": "Trigo",
@@ -47,10 +47,10 @@
   },
   "eur_usd": {
    "nombre": "Euro vs dolar",
-   "puntuacion": 59.57,
-   "valor": 1.094,
+   "puntuacion": 56.59,
+   "valor": 1.098,
    "unidad": "USD por EUR",
-   "observado": "2026-11-25"
+   "observado": "2026-11-26"
   },
   "hormuz": {
    "nombre": "Trafico por Ormuz",

@@ -108634,5 +108634,93 @@
         "observed_at": "2026-11-25"
       }
     }
+  },
+  {
+    "version": "v2",
+    "engine_version": "3.0.0",
+    "date": "2026-11-27",
+    "updated": "2026-11-27T06:08:41Z",
+    "index": 70.93,
+    "level": "alto",
+    "signals": {
+      "primary_alert": 62.93,
+      "global_pressure": 41.81,
+      "predictive_core": 66.38,
+      "input_pressure": 66.38,
+      "food_pressure": 16.71,
+      "supply_shock": 81.83,
+      "buffer_modifier": 8.0,
+      "amplifier_delta": 21.12
+    },
+    "pillars": {
+      "brent": {
+        "name": "Petroleo Brent",
+        "score": 73.21,
+        "current": 92.83,
+        "unit": "$/barril",
+        "observed_at": "2026-11-27",
+        "contrato": "Feb 27"
+      },
+      "natural_gas": {
+        "name": "Gas natural",
+        "score": 64.78,
+        "current": 87.55,
+        "unit": "EUR/MWh",
+        "observed_at": "2026-11-26",
+        "contrato": "Dic 26"
+      },
+      "wheat": {
+        "name": "Trigo",
+        "score": 12.15,
+        "current": 5.655,
+        "unit": "$/bushel",
+        "observed_at": "2026-11-25",
+        "contrato": "Dic 26"
+      },
+      "corn": {
+        "name": "Maiz",
+        "score": 10.01,
+        "current": 4.397,
+        "unit": "$/bushel",
+        "observed_at": "2026-11-25",
+        "contrato": "Dic 26"
+      },
+      "sugar": {
+        "name": "Azucar",
+        "score": 35.9,
+        "current": 18.34,
+        "unit": "cents/lb",
+        "observed_at": "2026-11-25",
+        "contrato": "Mar 27"
+      },
+      "eur_usd": {
+        "name": "Euro vs dolar",
+        "score": 56.59,
+        "current": 1.098,
+        "unit": "USD por EUR",
+        "observed_at": "2026-11-26"
+      },
+      "hormuz": {
+        "name": "Trafico por Ormuz",
+        "score": 100.0,
+        "current": 2.714,
+        "unit": "buques/dia (media 7d)",
+        "observed_at": "2026-11-22"
+      },
+      "gpr": {
+        "name": "Riesgo geopolitico",
+        "score": 67.33,
+        "current": 162.345,
+        "unit": "indice GPR",
+        "observed_at": "2026-11-23"
+      },
+      "ovx": {
+        "name": "Volatilidad del crudo",
+        "score": 72.11,
+        "current": 48.04,
+        "unit": "puntos",
+        "observed_at": "2026-11-25"
+      }
+    }
   }
 ]
